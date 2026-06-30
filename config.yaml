@@ -1,0 +1,12 @@
+plugins:
+  fifa_world_cup: true
+  motogp: false
+  wsbk: false
+  motoamerica: false
+  asbk: false
+  springboks: false
+  proteas: false
+  ipl: false
+  rugby_world_cup: false
+  cricket_world_cup: false
+  snooker: false

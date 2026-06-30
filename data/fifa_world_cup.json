@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Mexico vs Ecuador",
+        "start": "2026-06-30T21:00:00",
+        "end": "2026-06-30T23:00:00",
+        "venue": "Estadio Akron",
+        "description": "Round of 32"
+    },
+    {
+        "title": "England vs DR Congo",
+        "start": "2026-07-01T12:00:00",
+        "end": "2026-07-01T14:00:00",
+        "venue": "BC Place",
+        "description": "Round of 32"
+    },
+    {
+        "title": "Belgium vs Senegal",
+        "start": "2026-07-01T16:00:00",
+        "end": "2026-07-01T18:00:00",
+        "venue": "Lumen Field",
+        "description": "Round of 32"
+    }
+]
