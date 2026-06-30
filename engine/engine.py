@@ -7,19 +7,24 @@ class SportsCalendarEngine:
     def run(self):
 
         loader = PluginLoader()
-
         plugins = loader.load_plugins()
 
-        events = []
+        writer = CalendarWriter()
+
+        all_events = []
 
         for plugin in plugins:
 
             print(f"Loading {plugin.name}...")
 
-            events.extend(plugin.get_events())
+            events = plugin.get_events()
 
-        writer = CalendarWriter()
+            writer.write(events, plugin.filename)
 
-        writer.write(events, "master.ics")
+            print(f"  Wrote {plugin.filename}")
 
-        print(f"\nFinished! Generated {len(events)} events.")
+            all_events.extend(events)
+
+        writer.write(all_events, "master.ics")
+
+        print(f"\nFinished! Generated {len(all_events)} events.")

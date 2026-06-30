@@ -8,6 +8,11 @@ class BasePlugin(ABC):
     def name(self):
         pass
 
+    @property
+    @abstractmethod
+    def filename(self):
+        pass
+
     @abstractmethod
     def get_events(self):
         pass
