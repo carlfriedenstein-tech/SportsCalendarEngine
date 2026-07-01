@@ -80,7 +80,7 @@ class FIFAWorldCupPlugin(BasePlugin):
 
             events.append(
                 SportEvent(
-                    title=f"⚽ FIFA World Cup\n{home} vs {away}",
+                title=f"⚽ {home} vs {away}",
                     start=start,
                     end=end,
                     venue=venue,
