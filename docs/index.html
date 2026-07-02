@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -17,54 +19,59 @@ body{
 
 header{
     background:#161b22;
-    padding:40px;
+    padding:50px 30px;
     text-align:center;
     border-bottom:1px solid #30363d;
 }
 
 h1{
     margin:0;
-    font-size:44px;
+    font-size:46px;
 }
 
 .subtitle{
-    margin-top:12px;
+    margin-top:15px;
     color:#8b949e;
-    font-size:18px;
+    font-size:20px;
 }
 
 .container{
-    max-width:1000px;
+    max-width:900px;
     margin:auto;
-    padding:40px;
+    padding:40px 20px;
 }
 
 .card{
     background:#161b22;
     border:1px solid #30363d;
     border-radius:12px;
-    padding:25px;
-    margin-bottom:25px;
+    padding:28px;
+    margin-bottom:28px;
 }
 
 .card h2{
     margin-top:0;
+    margin-bottom:10px;
 }
 
 .description{
     color:#8b949e;
     margin-bottom:20px;
+    line-height:1.5;
 }
 
 .button{
     display:inline-block;
     text-decoration:none;
+    border:none;
+    cursor:pointer;
     background:#238636;
     color:white;
     padding:12px 22px;
     border-radius:8px;
     margin-right:12px;
-    margin-top:10px;
+    margin-top:8px;
+    font-size:15px;
     font-weight:bold;
 }
 
@@ -80,21 +87,25 @@ h1{
     background:#388bfd;
 }
 
+.coming{
+    color:#c9d1d9;
+    line-height:2;
+    font-size:18px;
+}
+
 footer{
     text-align:center;
     color:#8b949e;
     padding:40px;
     border-top:1px solid #30363d;
-    margin-top:50px;
+    margin-top:40px;
+    font-size:15px;
 }
 
 .version{
     margin-top:15px;
-}
-
-.coming{
-    line-height:2;
-    font-size:18px;
+    font-weight:bold;
+    color:#c9d1d9;
 }
 
 </style>
@@ -103,13 +114,14 @@ footer{
 
 function copyURL(file){
 
-    const url=window.location.origin+
-              window.location.pathname.replace("index.html","")
-              +file;
+    const url =
+        window.location.origin +
+        window.location.pathname.replace("index.html","") +
+        file;
 
     navigator.clipboard.writeText(url);
 
-    alert("Copied:\n\n"+url);
+    alert("Calendar URL copied to clipboard:\n\n" + url);
 
 }
 
@@ -125,11 +137,11 @@ function copyURL(file){
 
 <div class="subtitle">
 
-Personal Sports Calendar Collection
+Your Personal Sports Calendar Collection
 
 <br><br>
 
-Automatically updated from official data sources.
+Automatically updated daily using official data sources where available.
 
 </div>
 
@@ -143,21 +155,20 @@ Automatically updated from official data sources.
 
 <div class="description">
 
-Official FIFA World Cup Match Calendar
+Official FIFA World Cup match calendar.
 
 </div>
 
-<a class="button"
-href="fifa_world_cup.ics">
+<a class="button" href="fifa_world_cup.ics">
 
-Subscribe
+📅 Subscribe
 
 </a>
 
 <button class="button copy"
 onclick="copyURL('fifa_world_cup.ics')">
 
-Copy URL
+📋 Copy URL
 
 </button>
 
@@ -169,21 +180,20 @@ Copy URL
 
 <div class="description">
 
-MotoGP Sprint, Race and Official Tests
+MotoGP Sprint races, Grand Prix races and official test sessions.
 
 </div>
 
-<a class="button"
-href="motogp.ics">
+<a class="button" href="motogp.ics">
 
-Subscribe
+📅 Subscribe
 
 </a>
 
 <button class="button copy"
 onclick="copyURL('motogp.ics')">
 
-Copy URL
+📋 Copy URL
 
 </button>
 
@@ -195,21 +205,20 @@ Copy URL
 
 <div class="description">
 
-Every available calendar combined into one subscription.
+A single subscription containing every available sports calendar.
 
 </div>
 
-<a class="button"
-href="all_sports.ics">
+<a class="button" href="all_sports.ics">
 
-Subscribe
+📅 Subscribe
 
 </a>
 
 <button class="button copy"
 onclick="copyURL('all_sports.ics')">
 
-Copy URL
+📋 Copy URL
 
 </button>
 
@@ -225,15 +234,13 @@ Copy URL
 
 🏍 MotoAmerica<br>
 
-🏍 ASBK<br>
+🇦🇺 ASBK<br>
 
 🏉 Springboks<br>
 
 🏏 Proteas<br>
 
 🏏 IPL<br>
-
-🎾 Tennis<br>
 
 🎱 Snooker
 
@@ -245,11 +252,11 @@ Copy URL
 
 <footer>
 
-<b>Sports Calendar Engine</b>
+Sports Calendar Engine
 
 <div class="version">
 
-Version 1.1
+Version 1.2
 
 </div>
 
