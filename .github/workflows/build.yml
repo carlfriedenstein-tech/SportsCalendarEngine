@@ -8,7 +8,6 @@ on:
       - main
 
   schedule:
-    # Every day at 03:00 UTC
     - cron: "0 3 * * *"
 
 jobs:
@@ -23,6 +22,8 @@ jobs:
 
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -37,3 +38,19 @@ jobs:
       - name: Generate Calendars
         run: |
           python main.py
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit Updated Calendars
+        run: |
+          git add docs
+
+          if git diff --cached --quiet; then
+            echo "No calendar changes."
+          else
+            git commit -m "Automatic calendar update"
+            git push
+          fi
