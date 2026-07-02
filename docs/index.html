@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sports Calendar Engine</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Segoe UI,Arial,sans-serif;
+    background:#0d1117;
+    color:#f0f6fc;
+}
+
+header{
+    background:#161b22;
+    padding:40px;
+    text-align:center;
+    border-bottom:1px solid #30363d;
+}
+
+h1{
+    margin:0;
+    font-size:44px;
+}
+
+.subtitle{
+    margin-top:12px;
+    color:#8b949e;
+    font-size:18px;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:40px;
+}
+
+.card{
+    background:#161b22;
+    border:1px solid #30363d;
+    border-radius:12px;
+    padding:25px;
+    margin-bottom:25px;
+}
+
+.card h2{
+    margin-top:0;
+}
+
+.description{
+    color:#8b949e;
+    margin-bottom:20px;
+}
+
+.button{
+    display:inline-block;
+    text-decoration:none;
+    background:#238636;
+    color:white;
+    padding:12px 22px;
+    border-radius:8px;
+    margin-right:12px;
+    margin-top:10px;
+    font-weight:bold;
+}
+
+.button:hover{
+    background:#2ea043;
+}
+
+.copy{
+    background:#1f6feb;
+}
+
+.copy:hover{
+    background:#388bfd;
+}
+
+footer{
+    text-align:center;
+    color:#8b949e;
+    padding:40px;
+    border-top:1px solid #30363d;
+    margin-top:50px;
+}
+
+.version{
+    margin-top:15px;
+}
+
+.coming{
+    line-height:2;
+    font-size:18px;
+}
+
+</style>
+
+<script>
+
+function copyURL(file){
+
+    const url=window.location.origin+
+              window.location.pathname.replace("index.html","")
+              +file;
+
+    navigator.clipboard.writeText(url);
+
+    alert("Copied:\n\n"+url);
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Sports Calendar Engine</h1>
+
+<div class="subtitle">
+
+Personal Sports Calendar Collection
+
+<br><br>
+
+Automatically updated from official data sources.
+
+</div>
+
+</header>
+
+<div class="container">
+
+<div class="card">
+
+<h2>⚽ FIFA World Cup</h2>
+
+<div class="description">
+
+Official FIFA World Cup Match Calendar
+
+</div>
+
+<a class="button"
+href="fifa_world_cup.ics">
+
+Subscribe
+
+</a>
+
+<button class="button copy"
+onclick="copyURL('fifa_world_cup.ics')">
+
+Copy URL
+
+</button>
+
+</div>
+
+<div class="card">
+
+<h2>🏍 MotoGP</h2>
+
+<div class="description">
+
+MotoGP Sprint, Race and Official Tests
+
+</div>
+
+<a class="button"
+href="motogp.ics">
+
+Subscribe
+
+</a>
+
+<button class="button copy"
+onclick="copyURL('motogp.ics')">
+
+Copy URL
+
+</button>
+
+</div>
+
+<div class="card">
+
+<h2>⭐ All Sports</h2>
+
+<div class="description">
+
+Every available calendar combined into one subscription.
+
+</div>
+
+<a class="button"
+href="all_sports.ics">
+
+Subscribe
+
+</a>
+
+<button class="button copy"
+onclick="copyURL('all_sports.ics')">
+
+Copy URL
+
+</button>
+
+</div>
+
+<div class="card">
+
+<h2>🚧 Coming Soon</h2>
+
+<div class="coming">
+
+🏎 Formula 1<br>
+
+🏍 WorldSBK<br>
+
+🏍 MotoAmerica<br>
+
+🇦🇺 ASBK<br>
+
+🏉 Springboks<br>
+
+🏏 Proteas<br>
+
+⚽ Premier League<br>
+
+🏏 IPL<br>
+
+🎾 Tennis<br>
+
+🎱 Snooker
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+<b>Sports Calendar Engine</b>
+
+<div class="version">
+
+Version 1.1
+
+</div>
+
+<br>
+
+Built with Python • Hosted on GitHub Pages
+
+</footer>
+
+</body>
+
+</html>
