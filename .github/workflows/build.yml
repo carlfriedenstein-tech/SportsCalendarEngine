@@ -13,6 +13,9 @@ on:
 jobs:
   build:
 
+    # Don't run if the push was made by GitHub Actions itself
+    if: github.actor != 'github-actions[bot]'
+
     runs-on: ubuntu-latest
 
     permissions:
