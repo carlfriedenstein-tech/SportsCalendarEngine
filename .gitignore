@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# Generated calendars
+output/*.ics
+output/*.html
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
