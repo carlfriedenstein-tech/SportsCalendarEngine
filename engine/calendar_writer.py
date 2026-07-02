@@ -6,6 +6,8 @@ from icalendar import Calendar, Event
 
 class CalendarWriter:
 
+    OUTPUT_FOLDER = "docs"
+
     def write(self, events, filename):
 
         cal = Calendar()
@@ -30,7 +32,14 @@ class CalendarWriter:
 
             cal.add_component(event)
 
-        os.makedirs("output", exist_ok=True)
+        os.makedirs(self.OUTPUT_FOLDER, exist_ok=True)
 
-        with open(f"output/{filename}", "wb") as f:
+        output_file = os.path.join(
+            self.OUTPUT_FOLDER,
+            filename
+        )
+
+        with open(output_file, "wb") as f:
             f.write(cal.to_ical())
+
+        print(f"  Wrote {output_file}")
