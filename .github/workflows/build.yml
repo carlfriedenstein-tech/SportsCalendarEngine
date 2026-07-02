@@ -3,10 +3,21 @@ name: Sports Calendar Engine
 on:
   workflow_dispatch:
 
+  push:
+    branches:
+      - main
+
+  schedule:
+    # Every day at 03:00 UTC
+    - cron: "0 3 * * *"
+
 jobs:
   build:
 
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
 
     steps:
 
