@@ -21,10 +21,8 @@ class SportsCalendarEngine:
 
             writer.write(events, plugin.filename)
 
-            print(f"  Wrote {plugin.filename}")
-
             all_events.extend(events)
 
-        writer.write(all_events, "master.ics")
+        writer.write(all_events, "all_sports.ics")
 
         print(f"\nFinished! Generated {len(all_events)} events.")
