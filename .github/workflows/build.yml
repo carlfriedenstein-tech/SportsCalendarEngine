@@ -3,17 +3,17 @@ name: Sports Calendar Engine
 on:
   workflow_dispatch:
 
-  push:
-    branches:
-      - main
-
   schedule:
+    # Every day at 03:00 UTC
     - cron: "0 3 * * *"
+
+concurrency:
+  group: sports-calendar-engine
+  cancel-in-progress: true
 
 jobs:
   build:
 
-    # Don't run if the push was made by GitHub Actions itself
     if: github.actor != 'github-actions[bot]'
 
     runs-on: ubuntu-latest
