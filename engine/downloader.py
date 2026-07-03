@@ -3,18 +3,35 @@ import requests
 
 class Downloader:
 
-    def get_json(self, url):
+    HEADERS = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/138.0 Safari/537.36"
+        ),
+        "Accept-Language": "en-US,en;q=0.9",
+    }
 
-        headers = {
-            "User-Agent": "Mozilla/5.0"
-        }
+    def get_json(self, url):
 
         response = requests.get(
             url,
-            headers=headers,
+            headers=self.HEADERS,
             timeout=30
         )
 
         response.raise_for_status()
 
         return response.json()
+
+    def get_text(self, url):
+
+        response = requests.get(
+            url,
+            headers=self.HEADERS,
+            timeout=30
+        )
+
+        response.raise_for_status()
+
+        return response.text
