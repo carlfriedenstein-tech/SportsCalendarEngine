@@ -1,4 +1,4 @@
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 from engine.downloader import Downloader
 from engine.event import SportEvent
@@ -135,6 +135,8 @@ class SpringboksPlugin(BasePlugin):
 
             start = datetime.fromisoformat(
                 match["utcDate"]
+            ).replace(
+                tzinfo=timezone.utc
             )
 
             end = start + timedelta(
@@ -158,13 +160,11 @@ class SpringboksPlugin(BasePlugin):
 
             title = "\n".join([
 
-                "🏉 Springboks",
+                f"🏉 {match_title}",
 
-                match_title,
+            competition
 
-                competition
-
-            ])
+])
 
             description = "\n".join([
 
