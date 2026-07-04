@@ -1,0 +1,146 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sports Calendar Engine//
+BEGIN:VEVENT
+SUMMARY:🏍️ MotoAmerica Race Weekend\nThe 84th Daytona 200
+DTSTART;VALUE=DATE:20260305
+DTEND;VALUE=DATE:20260308
+UID:c7dd353b8fc552e9b8773cdf58b6f50d
+DESCRIPTION:MotoAmerica Race Weekend\n\nOfficial Event Page:\nhttps://moto
+ america.com/daytona-200/
+LOCATION:Daytona International Speedway\, FL
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ MotoAmerica Race Weekend\nMotoAmerica Superbikes at Road A
+ tlanta
+DTSTART;VALUE=DATE:20260417
+DTEND;VALUE=DATE:20260420
+UID:41e7d0f5cdf0240d1b1c3fbce4bbb443
+DESCRIPTION:MotoAmerica Race Weekend\n\nOfficial Event Page:\nhttps://moto
+ america.com/atlanta
+LOCATION:Michelin Raceway Road Atlanta\, GA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ MotoAmerica Race Weekend\nMotoAmerica Superbikes at Barber
+DTSTART;VALUE=DATE:20260515
+DTEND;VALUE=DATE:20260518
+UID:30986221a284ce93bf82ac278f139321
+DESCRIPTION:MotoAmerica Race Weekend\n\nOfficial Event Page:\nhttps://moto
+ america.com/alabama
+LOCATION:Barber Motorsports Park\, AL
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ MotoAmerica Race Weekend\nMotoAmerica Superbikes at Road A
+ merica
+DTSTART;VALUE=DATE:20260529
+DTEND;VALUE=DATE:20260601
+UID:643063460634b9fe8c4c175d35cc87b7
+DESCRIPTION:MotoAmerica Race Weekend\n\nOfficial Event Page:\nhttps://moto
+ america.com/road-america
+LOCATION:Road America\, WI
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ MotoAmerica Race Weekend\nMotoAmerica Superbikes at Ridge 
+ Motorsports Park
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260629
+UID:9d10c88b15c701c42f52a3cd72bf70eb
+DESCRIPTION:MotoAmerica Race Weekend\n\nOfficial Event Page:\nhttps://moto
+ america.com/ridge
+LOCATION:Ridge Motorsports Park\, WA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ MotoAmerica Race Weekend\nMotoAmerica Superbike Speedfest 
+ at Monterey Presented By Law Tigers
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260713
+UID:28663670d5c68b388dc5f43fec7b287f
+DESCRIPTION:MotoAmerica Race Weekend\n\nClasses Racing:\n• Super Hooliga
+ n\n• Talent Cup\n• Supersport\n• Superbike\n• King of the Baggers\
+ n\nOfficial Event Page:\nhttps://motoamerica.com/laguna-seca
+LOCATION:WeatherTech Raceway Laguna Seca\, CA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ MotoAmerica Race Weekend\nMotoAmerica Superbikes at Mid-Oh
+ io
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260803
+UID:b07ad79d99491ca55e2e40fd17b791d6
+DESCRIPTION:MotoAmerica Race Weekend\n\nOfficial Event Page:\nhttps://moto
+ america.com/mid-ohio
+LOCATION:Mid-Ohio Sports Car Course\, OH
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ MotoAmerica Race Weekend\nMotoAmerica Superbikes at VIRgin
+ ia
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260817
+UID:d67395c2a7743df18e177c547b256145
+DESCRIPTION:MotoAmerica Race Weekend\n\nOfficial Event Page:\nhttps://moto
+ america.com/virginia
+LOCATION:Virginia Int'l Raceway\, VA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ MotoAmerica Race Weekend\nMotoAmerica Superbikes at Texas
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260914
+UID:84d237488abdad6484376e55fbfdf140
+DESCRIPTION:MotoAmerica Race Weekend\n\nOfficial Event Page:\nhttps://moto
+ america.com/cota/
+LOCATION:Circuit of The Americas\, TX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ MotoAmerica Race Weekend\nMotoAmerica Superbikes at New Je
+ rsey
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260928
+UID:26300c55c8534c17922aaca0619c19d7
+DESCRIPTION:MotoAmerica Race Weekend\n\nOfficial Event Page:\nhttps://moto
+ america.com/new-jersey
+LOCATION:New Jersey Motorsports Park\, NJ
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ MotoAmerica Supersport Race 1
+DTSTART:20260711T201000Z
+DTEND:20260711T211000Z
+UID:56ab2af63dbddc417563beccc626ed99
+DESCRIPTION:MotoAmerica Superbike Speedfest at Monterey Presented By Law T
+ igers\n\nOfficial Schedule Entry:\n1:10 PM – Supersport – Race 1 (17 l
+ aps)\n\nOfficial Event Page:\nhttps://motoamerica.com/laguna-seca\n\nOffic
+ ial MotoAmerica Schedule:\nhttps://www.motoamerica.com/event/
+LOCATION:WeatherTech Raceway Laguna Seca\, CA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ MotoAmerica Superbike Race 1
+DTSTART:20260711T221200Z
+DTEND:20260711T231200Z
+UID:0958b0e2cc5224d9bbf20cdc66932c7d
+DESCRIPTION:MotoAmerica Superbike Speedfest at Monterey Presented By Law T
+ igers\n\nOfficial Schedule Entry:\n3:12 PM – Quad Lock Superbike – Rac
+ e 1 (20 laps)\n\nOfficial Event Page:\nhttps://motoamerica.com/laguna-seca
+ \n\nOfficial MotoAmerica Schedule:\nhttps://www.motoamerica.com/event/
+LOCATION:WeatherTech Raceway Laguna Seca\, CA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ MotoAmerica Supersport Race 2
+DTSTART:20260712T201000Z
+DTEND:20260712T211000Z
+UID:9c91351fe6f26d40173856fbb7286c97
+DESCRIPTION:MotoAmerica Superbike Speedfest at Monterey Presented By Law T
+ igers\n\nOfficial Schedule Entry:\n1:10 PM – Supersport – Race 2 (19 l
+ aps)\n\nOfficial Event Page:\nhttps://motoamerica.com/laguna-seca\n\nOffic
+ ial MotoAmerica Schedule:\nhttps://www.motoamerica.com/event/
+LOCATION:WeatherTech Raceway Laguna Seca\, CA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ MotoAmerica Superbike Race 2
+DTSTART:20260712T221200Z
+DTEND:20260712T231200Z
+UID:73b0be88b94148702c852edb0ba9b54c
+DESCRIPTION:MotoAmerica Superbike Speedfest at Monterey Presented By Law T
+ igers\n\nOfficial Schedule Entry:\n3:12 PM – Quad Lock Superbike – Rac
+ e 2 (20 laps)\n\nOfficial Event Page:\nhttps://motoamerica.com/laguna-seca
+ \n\nOfficial MotoAmerica Schedule:\nhttps://www.motoamerica.com/event/
+LOCATION:WeatherTech Raceway Laguna Seca\, CA
+END:VEVENT
+END:VCALENDAR

@@ -3,6 +3,7 @@ from plugins.motogp import MotoGPPlugin
 from plugins.worldsbk import WorldSBKPlugin
 from plugins.proteas import ProteasPlugin
 from plugins.springboks import SpringboksPlugin
+from plugins.motoamerica import MotoAmericaPlugin
 
 
 class PluginLoader:
@@ -19,6 +20,8 @@ class PluginLoader:
 
             ProteasPlugin(),
 
-            SpringboksPlugin()
+            SpringboksPlugin(),
+
+            MotoAmericaPlugin(),
 
         ]
