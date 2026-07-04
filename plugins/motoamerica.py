@@ -932,6 +932,46 @@ class MotoAmericaPlugin(BasePlugin):
         return local_datetime.astimezone(
             timezone.utc
         )
+    
+    # ---------------------------------------------------------
+    # GET SHORT EVENT DISPLAY NAME
+    # ---------------------------------------------------------
+
+    @staticmethod
+    def get_short_event_name(
+        season_event,
+    ):
+
+        short_names = {
+
+            "daytona-200": "Daytona",
+
+            "atlanta": "Road Atlanta",
+
+            "alabama": "Barber",
+
+            "road-america": "Road America",
+
+            "ridge": "Ridge",
+
+            "laguna-seca": "Laguna Seca",
+
+            "mid-ohio": "Mid-Ohio",
+
+            "virginia": "VIR",
+
+            "cota": "COTA",
+
+            "new-jersey": "New Jersey",
+
+        }
+
+        slug = season_event["slug"]
+
+        return short_names.get(
+            slug,
+            season_event["title"],
+        )
 
     # ---------------------------------------------------------
     # CREATE PLACEHOLDER EVENT
@@ -946,12 +986,6 @@ class MotoAmericaPlugin(BasePlugin):
 
         # Use Python date objects for true all-day
         # iCalendar events.
-        #
-        # CalendarWriter passes these directly to
-        # icalendar.Event, which will generate:
-        #
-        # DTSTART;VALUE=DATE:YYYYMMDD
-        # DTEND;VALUE=DATE:YYYYMMDD
         #
         # DTEND is exclusive, so add one day to
         # the official final date.
@@ -972,10 +1006,16 @@ class MotoAmericaPlugin(BasePlugin):
             )
         )
 
+        short_name = (
+            cls.get_short_event_name(
+                season_event
+            )
+        )
+
         return SportEvent(
             title=(
-                "🏍️ MotoAmerica Race Weekend\n"
-                f"{season_event['title']}"
+                "🏍️ MotoAmerica - "
+                f"{short_name}"
             ),
             start=start_date,
             end=end_date_exclusive,
