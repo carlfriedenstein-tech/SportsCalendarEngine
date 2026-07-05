@@ -9,12 +9,12 @@ class WorldSBKPlugin(BasePlugin):
 
     ROUNDS_URL = (
         "https://api.wsbk.pulselive.com/"
-        "wsbk-events/v1/seasons/2026/rounds"
+        "wsbk-events/v1/seasons/{}/rounds"
     )
 
     SESSIONS_URL = (
         "https://api.wsbk.pulselive.com/"
-        "wsbk-events/v1/seasons/2026/rounds/{}/sessions"
+        "wsbk-events/v1/seasons/{}/rounds/{}/sessions"
     )
 
     SESSION_NAMES = {
@@ -56,14 +56,25 @@ class WorldSBKPlugin(BasePlugin):
     def filename(self):
         return "worldsbk.ics"
 
-    def download_rounds(self):
+    def download_rounds(self, season_year):
+
         return self.downloader.get_json(
-            self.ROUNDS_URL
+            self.ROUNDS_URL.format(
+                season_year
+            )
         )
 
-    def download_sessions(self, round_id):
+    def download_sessions(
+        self,
+        season_year,
+        round_id
+    ):
+
         return self.downloader.get_json(
-            self.SESSIONS_URL.format(round_id)
+            self.SESSIONS_URL.format(
+                season_year,
+                round_id
+            )
         )
 
     def clean_session_name(self, session):
@@ -209,6 +220,7 @@ class WorldSBKPlugin(BasePlugin):
 
     def parse_round(
         self,
+        season_year,
         round_data
     ):
 
@@ -222,13 +234,16 @@ class WorldSBKPlugin(BasePlugin):
         )
 
         if not round_id:
+
             return calendar_events
 
         print(
-            f"Loading {round_data['attributes']['name']}..."
+            f"Loading "
+            f"{round_data['attributes']['name']}..."
         )
 
         sessions = self.download_sessions(
+            season_year,
             round_id
         )
 
@@ -257,6 +272,7 @@ class WorldSBKPlugin(BasePlugin):
             )
 
             if category != "SBK":
+
                 continue
 
             event = self.build_event(
@@ -271,7 +287,7 @@ class WorldSBKPlugin(BasePlugin):
                 )
 
         calendar_events.sort(
-            key=lambda e: e.start
+            key=lambda event: event.start
         )
 
         return calendar_events
@@ -280,39 +296,136 @@ class WorldSBKPlugin(BasePlugin):
 
         calendar_events = []
 
-        rounds = self.download_rounds()
+        current_year = datetime.now().year
 
-        season_rounds = rounds.get(
-            "data",
-            []
-        )
+        season_years = [
+            current_year,
+            current_year + 1,
+        ]
 
-        print(
-            f"Downloaded {len(season_rounds)} WorldSBK rounds"
-        )
+        seen_rounds = set()
 
-        for round_data in season_rounds:
+        for season_year in season_years:
+
+            print(
+                f"Checking WorldSBK season "
+                f"{season_year}..."
+            )
 
             try:
 
-                calendar_events.extend(
-
-                    self.parse_round(
-                        round_data
-                    )
-
+                rounds = self.download_rounds(
+                    season_year
                 )
 
             except Exception as ex:
 
+                if season_year == current_year:
+
+                    raise
+
                 print(
-                    f"Failed loading "
-                    f"{round_data['attributes']['name']}"
+                    f"WorldSBK season "
+                    f"{season_year} "
+                    f"is not available yet"
                 )
 
                 print(
                     f"  {ex}"
                 )
+
+                continue
+
+            season_rounds = rounds.get(
+                "data",
+                []
+            )
+
+            print(
+                f"Downloaded "
+                f"{len(season_rounds)} "
+                f"WorldSBK rounds for "
+                f"{season_year}"
+            )
+
+            for round_data in season_rounds:
+
+                round_id = (
+                    round_data.get(
+                        "attributes",
+                        {}
+                    )
+                    .get(
+                        "source_id"
+                    )
+                )
+
+                if not round_id:
+
+                    continue
+
+                round_key = (
+                    season_year,
+                    round_id,
+                )
+
+                if round_key in seen_rounds:
+
+                    continue
+
+                seen_rounds.add(
+                    round_key
+                )
+
+                try:
+
+                    calendar_events.extend(
+                        self.parse_round(
+                            season_year,
+                            round_data
+                        )
+                    )
+
+                except Exception as ex:
+
+                    round_name = (
+                        round_data.get(
+                            "attributes",
+                            {}
+                        )
+                        .get(
+                            "name",
+                            "Unknown Round"
+                        )
+                    )
+
+                    print(
+                        f"Failed loading "
+                        f"{round_name}"
+                    )
+
+                    print(
+                        f"  {ex}"
+                    )
+
+        calendar_events.sort(
+            key=lambda event: event.start
+        )
+
+        if calendar_events:
+
+            print(
+                f"WorldSBK calendar coverage: "
+                f"{calendar_events[0].start} -> "
+                f"{calendar_events[-1].end}"
+            )
+
+        else:
+
+            print(
+                "WARNING: WorldSBK generated "
+                "0 events"
+            )
 
         return calendar_events
 
