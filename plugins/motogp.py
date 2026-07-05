@@ -101,6 +101,9 @@ class MotoGPPlugin(BasePlugin):
             event["name"]
         )
 
+        if event_name.endswith(" GP"):
+            event_name = event_name[:-3].strip()
+
         session_name = self.clean_session_name(
             session
         )
@@ -108,12 +111,12 @@ class MotoGPPlugin(BasePlugin):
         if event.get("kind") == "TEST":
 
             return (
-                f"🧪 {event_name} – "
+                f"🧪 MGP - {event_name} - "
                 f"{session_name}"
             )
 
         return (
-            f"🏍 {event_name} – "
+            f"🏍️ MGP - {event_name} - "
             f"{session_name}"
         )
 

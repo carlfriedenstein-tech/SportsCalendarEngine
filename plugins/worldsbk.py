@@ -92,7 +92,7 @@ class WorldSBKPlugin(BasePlugin):
     def format_title(self, circuit, session):
 
         return (
-            f"🏍 WSBK - "
+            f"🏍️ WSBK - "
             f"{circuit} - "
             f"{self.clean_session_name(session)}"
         )
