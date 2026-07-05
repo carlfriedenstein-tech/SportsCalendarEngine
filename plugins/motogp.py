@@ -8,9 +8,9 @@ from plugins.base_plugin import BasePlugin
 class MotoGPPlugin(BasePlugin):
 
     EVENTS_URL = (
-        "https://api.pulselive.motogp.com/"
-        "motogp/v1/events?seasonYear=2026"
-    )
+    "https://api.pulselive.motogp.com/"
+    "motogp/v1/events?seasonYear={}"
+    ) 
 
     EVENT_URL = (
         "https://api.pulselive.motogp.com/"
@@ -65,8 +65,10 @@ class MotoGPPlugin(BasePlugin):
     def filename(self):
         return "motogp.ics"
 
-    def download_events(self):
-        return self.downloader.get_json(self.EVENTS_URL)
+    def download_events(self, season_year):
+        return self.downloader.get_json(
+        self.EVENTS_URL.format(season_year)
+    )
 
     def download_event(self, event_id):
         return self.downloader.get_json(
@@ -221,18 +223,78 @@ class MotoGPPlugin(BasePlugin):
 
         calendar_events = []
 
-        season_events = self.download_events()
+        current_year = datetime.now().year
 
-        print(
-            f"Downloaded {len(season_events)} MotoGP events"
-        )
+        season_years = [
+            current_year,
+            current_year + 1,
+        ]
+
+        season_events = []
+
+        for season_year in season_years:
+
+            print(
+                f"Checking MotoGP season {season_year}..."
+            )
+
+            try:
+
+                downloaded_events = (
+                    self.download_events(
+                        season_year
+                    )
+                )
+
+            except Exception as ex:
+
+                if season_year == current_year:
+
+                    raise
+
+                print(
+                    f"MotoGP season {season_year} "
+                    f"is not available yet"
+                )
+
+                print(f"  {ex}")
+
+                continue
+
+            print(
+                f"Downloaded "
+                f"{len(downloaded_events)} "
+                f"MotoGP events for {season_year}"
+            )
+
+            season_events.extend(
+                downloaded_events
+            )
+
+        seen_event_ids = set()
 
         for season_event in season_events:
 
-            kind = season_event.get("kind", "")
+            event_id = season_event.get("id")
 
-            # Ignore presentations and media-only events
+            if not event_id:
+
+                continue
+
+            if event_id in seen_event_ids:
+
+                continue
+
+            seen_event_ids.add(event_id)
+
+            kind = season_event.get(
+                "kind",
+                ""
+            )
+
+            # Ignore presentations and media-only events.
             if kind == "MEDIA":
+
                 continue
 
             event_name = season_event.get(
@@ -240,12 +302,14 @@ class MotoGPPlugin(BasePlugin):
                 ""
             ).strip()
 
-            print(f"Loading {event_name}...")
+            print(
+                f"Loading {event_name}..."
+            )
 
             try:
 
                 event = self.download_event(
-                    season_event["id"]
+                    event_id
                 )
 
                 calendar_events.extend(
@@ -257,7 +321,26 @@ class MotoGPPlugin(BasePlugin):
                 print(
                     f"Failed loading {event_name}"
                 )
+
                 print(f"  {ex}")
+
+        calendar_events.sort(
+            key=lambda event: event.start
+        )
+
+        if calendar_events:
+
+            print(
+                f"MotoGP calendar coverage: "
+                f"{calendar_events[0].start} -> "
+                f"{calendar_events[-1].end}"
+            )
+
+        else:
+
+            print(
+                "WARNING: MotoGP generated 0 events"
+            )
 
         return calendar_events
 
