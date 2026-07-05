@@ -10,13 +10,15 @@ class SpringboksPlugin(BasePlugin):
     URL = (
         "https://springboks.rugby/"
         "api/match-centre/matches"
-        "?startDate=2025-01-01"
-        "&endDate=2030-12-31T23:59:59"
-        "&pageIndex=0"
-        "&pageSize=100"
+        "?startDate={}"
+        "&endDate={}"
+        "&pageIndex={}"
+        "&pageSize={}"
         "&IsAscending=true"
-        "&teamOneId=e976cfc2-f80b-4c1a-8472-838cd54f0fbc"
     )
+
+    PAGE_SIZE = 100
+    FUTURE_YEARS = 10
 
     def __init__(self):
 
@@ -38,9 +40,143 @@ class SpringboksPlugin(BasePlugin):
             "Downloading Springboks fixtures..."
         )
 
-        return self.downloader.get_json(
-            self.URL
+        current_year = datetime.now().year
+
+        start_date = (
+            f"{current_year}-01-01"
         )
+
+        end_date = (
+            f"{current_year + self.FUTURE_YEARS}"
+            "-12-31T23:59:59"
+        )
+
+        matches = []
+
+        seen_matches = set()
+
+        page_index = 0
+
+        max_pages = 100
+
+        while True:
+
+            if page_index >= max_pages:
+
+                print(
+                    "WARNING: Springboks pagination "
+                    "reached safety limit"
+                )
+
+                break
+
+            print(
+                f"Downloading Springboks page "
+                f"{page_index}..."
+            )
+
+            url = self.URL.format(
+                start_date,
+                end_date,
+                page_index,
+                self.PAGE_SIZE
+            )
+
+            response = self.downloader.get_json(
+                url
+            )
+
+            if isinstance(response, dict):
+
+                page_matches = response.get(
+                    "matches",
+                    response.get(
+                        "items",
+                        []
+                    )
+                )
+
+            elif isinstance(response, list):
+
+                page_matches = response
+
+            else:
+
+                page_matches = []
+
+            print(
+                f"Downloaded "
+                f"{len(page_matches)} matches "
+                f"from page {page_index}"
+            )
+
+            for match in page_matches:
+
+                match_id = match.get(
+                    "id"
+                )
+
+                if match_id is not None:
+
+                    key = (
+                        "id",
+                        match_id,
+                    )
+
+                else:
+
+                    key = (
+                        match.get(
+                            "utcDate",
+                            ""
+                        ),
+                        tuple(
+                            sorted(
+                                team.get(
+                                    "name",
+                                    ""
+                                )
+                                for team
+                                in match.get(
+                                    "teams",
+                                    []
+                                )
+                            )
+                        ),
+                    )
+
+                if key in seen_matches:
+
+                    continue
+
+                seen_matches.add(
+                    key
+                )
+
+                matches.append(
+                    match
+                )
+
+            if len(page_matches) < self.PAGE_SIZE:
+
+                break
+
+            page_index += 1
+
+        matches.sort(
+            key=lambda match: match.get(
+                "utcDate",
+                ""
+            )
+        )
+
+        print(
+            f"Downloaded "
+            f"{len(matches)} unique "
+            f"Springboks matches"
+        )
+
+        return matches
 
     def get_match_title(
         self,
@@ -99,114 +235,188 @@ class SpringboksPlugin(BasePlugin):
 
         events = []
 
-        matches = self.download_matches()
+        try:
 
-        if isinstance(
-            matches,
-            dict
-        ):
+            matches = self.download_matches()
 
-            matches = matches.get(
-                "matches",
-                matches.get(
-                    "items",
-                    []
-                )
+        except Exception as ex:
+
+            print(
+                "ERROR: Failed downloading "
+                "Springboks fixtures"
             )
+
+            print(
+                f"  {ex}"
+            )
+
+            return events
 
         print(
             f"Downloaded {len(matches)} matches"
         )
 
+        springbok_matches = 0
+
+        cancelled_matches = 0
+
+        failed_matches = 0
+
         for match in matches:
+
+            if not any(
+                team.get(
+                    "name"
+                ) == "Springboks"
+                for team in match.get(
+                    "teams",
+                    []
+                )
+            ):
+
+                continue
+
+            springbok_matches += 1
 
             if match.get(
                 "isCancelled",
                 False
             ):
 
+                cancelled_matches += 1
+
                 continue
 
-            match_title, opponent = (
-    self.get_match_title(
-        match
-    )
-)
+            try:
 
-            start = datetime.fromisoformat(
-                match["utcDate"]
-            ).replace(
-                tzinfo=timezone.utc
-            )
+                match_title, opponent = (
+                    self.get_match_title(
+                        match
+                    )
+                )
 
-            end = start + timedelta(
-                hours=3
-            )
+                start = datetime.fromisoformat(
+                    match["utcDate"]
+                ).replace(
+                    tzinfo=timezone.utc
+                )
 
-            competition = match.get(
-                "competitionName",
-                ""
-            )
+                end = start + timedelta(
+                    hours=3
+                )
 
-            venue = match.get(
-                "venueName",
-                ""
-            )
+                competition = match.get(
+                    "competitionName",
+                    ""
+                )
 
-            round_name = match.get(
-                "roundName",
-                ""
-            )
+                venue = match.get(
+                    "venueName",
+                    ""
+                )
 
-            title = "\n".join([
+                round_name = match.get(
+                    "roundName",
+                    ""
+                )
 
-                f"🏉 {match_title}",
+                title = "\n".join([
 
-            competition
+                    f"🏉 {match_title}",
 
-])
+                    competition
 
-            description = "\n".join([
+                ])
 
-                "Springboks",
+                description = "\n".join([
 
-                "",
+                    "Springboks",
 
-                f"Competition: {competition}",
+                    "",
 
-                f"Round: {round_name}",
+                    f"Competition: {competition}",
 
-                f"Opponent: {opponent}",
+                    f"Round: {round_name}",
 
-                f"Venue: {venue}"
+                    f"Opponent: {opponent}",
 
-            ])
+                    f"Venue: {venue}"
 
-            events.append(
+                ])
 
-                SportEvent(
+                events.append(
 
-                    title=title,
+                    SportEvent(
 
-                    start=start,
+                        title=title,
 
-                    end=end,
+                        start=start,
 
-                    venue=venue,
+                        end=end,
 
-                    description=description
+                        venue=venue,
+
+                        description=description
+
+                    )
 
                 )
 
-            )
+            except Exception as ex:
+
+                failed_matches += 1
+
+                print(
+                    "Failed parsing Springboks "
+                    "match"
+                )
+
+                print(
+                    f"  {ex}"
+                )
 
         events.sort(
-            key=lambda e: e.start
+            key=lambda event: event.start
         )
 
         print(
-            f"Generated {len(events)} Springboks events"
+            f"Found {springbok_matches} "
+            f"Springboks matches"
         )
+
+        if cancelled_matches:
+
+            print(
+                f"Skipped {cancelled_matches} "
+                f"cancelled Springboks matches"
+            )
+
+        if failed_matches:
+
+            print(
+                f"WARNING: {failed_matches} "
+                f"Springboks matches failed parsing"
+            )
+
+        print(
+            f"Generated {len(events)} "
+            f"Springboks events"
+        )
+
+        if events:
+
+            print(
+                f"Springboks calendar coverage: "
+                f"{events[0].start} -> "
+                f"{events[-1].end}"
+            )
+
+        else:
+
+            print(
+                "WARNING: Springboks generated "
+                "0 events"
+            )
 
         return events
     
