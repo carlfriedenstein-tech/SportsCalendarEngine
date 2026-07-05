@@ -411,7 +411,31 @@ class ProteasPlugin(BasePlugin):
 
         events = []
 
-        links = self.find_match_links()
+        try:
+
+            links = self.find_match_links()
+
+        except Exception as ex:
+
+            print(
+                "ERROR: Failed downloading "
+                "Proteas fixture index"
+            )
+
+            print(
+                f"  {ex}"
+            )
+
+            return events
+
+        if not links:
+
+            print(
+                "WARNING: Proteas fixture index "
+                "returned 0 fixture links"
+            )
+
+            return events
 
         #
         # Track processed URLs
@@ -425,9 +449,12 @@ class ProteasPlugin(BasePlugin):
 
         seen_events = {}
 
+        failed_matches = 0
+
         for link in links:
 
             if link in processed_urls:
+
                 continue
 
             processed_urls.add(
@@ -441,6 +468,7 @@ class ProteasPlugin(BasePlugin):
                 )
 
                 if event is None:
+
                     continue
 
                 #
@@ -452,7 +480,9 @@ class ProteasPlugin(BasePlugin):
                     event.venue
                 )
 
-                existing = seen_events.get(key)
+                existing = seen_events.get(
+                    key
+                )
 
                 if existing is None:
 
@@ -464,23 +494,50 @@ class ProteasPlugin(BasePlugin):
 
             except Exception as ex:
 
+                failed_matches += 1
+
                 print(
                     f"Failed loading {link}"
                 )
 
                 print(
-                    ex
+                    f"  {ex}"
                 )
 
-        # Rebuild events list from seen events and sort
-        events = list(seen_events.values())
-        events.sort(key=lambda e: e.start)
+        events = list(
+            seen_events.values()
+        )
+
+        events.sort(
+            key=lambda event: event.start
+        )
 
         print(
-
-            f"Generated {len(events)} Proteas events"
-
+            f"Generated {len(events)} "
+            f"Proteas events"
         )
+
+        if failed_matches:
+
+            print(
+                f"WARNING: {failed_matches} "
+                f"Proteas fixture pages failed"
+            )
+
+        if events:
+
+            print(
+                f"Proteas calendar coverage: "
+                f"{events[0].start} -> "
+                f"{events[-1].end}"
+            )
+
+        else:
+
+            print(
+                "WARNING: Proteas generated "
+                "0 events"
+            )
 
         return events
 
