@@ -731,9 +731,9 @@ LOCATION:New York/New Jersey Stadium\, New Jersey
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Mexico vs England
-DTSTART:20260706T000000Z
-DTEND:20260706T020000Z
-UID:793db4000296b4f6f85f45e234964f9c
+DTSTART:20260706T010000Z
+DTEND:20260706T030000Z
+UID:a9e66b7e346c1387e0b8b2d795af512d
 DESCRIPTION:Round of 16
 LOCATION:Mexico City Stadium\, Mexico City
 END:VEVENT
@@ -786,10 +786,10 @@ DESCRIPTION:Quarter-final
 LOCATION:Los Angeles Stadium\, Los Angeles
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ W91 vs W92
+SUMMARY:⚽ Norway vs England
 DTSTART:20260711T210000Z
 DTEND:20260711T230000Z
-UID:75b492e2b7d8eb509bd42037795116cb
+UID:b20786790d7fed0ad3ab19b91db24f49
 DESCRIPTION:Quarter-final
 LOCATION:Miami Stadium\, Miami
 END:VEVENT
@@ -1326,39 +1326,6 @@ DESCRIPTION:MotoGP\n\nSession: Grand Prix\nCountry: VALENCIA\nLaps: 27
 LOCATION:MOTUL GRAND PRIX OF VALENCIA
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Aragon - Superpole
-DTSTART:20260530T091500Z
-DTEND:20260530T101500Z
-UID:2fb91447a637dadf28215817a0e338d5
-DESCRIPTION:WorldSBK\n\nSession: Superpole\nCircuit: Aragon\nCountry: ESP
-LOCATION:Aragon
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Aragon - Race 1
-DTSTART:20260530T120000Z
-DTEND:20260530T130000Z
-UID:4687196b73d87731a6e39aa7edeb9259
-DESCRIPTION:WorldSBK\n\nSession: Race 1\nCircuit: Aragon\nCountry: ESP
-LOCATION:Aragon
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Aragon - Superpole Race
-DTSTART:20260531T091000Z
-DTEND:20260531T094000Z
-UID:b007a9c2f31cccacc6909b6545763116
-DESCRIPTION:WorldSBK\n\nSession: Superpole Race\nCircuit: Aragon\nCountry:
-  ESP
-LOCATION:Aragon
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Aragon - Race 2
-DTSTART:20260531T133000Z
-DTEND:20260531T143000Z
-UID:2838bcd3d2d3faddd593a67725e17a4c
-DESCRIPTION:WorldSBK\n\nSession: Race 2\nCircuit: Aragon\nCountry: ESP
-LOCATION:Aragon
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🏍️ WSBK - Phillip Island - Superpole
 DTSTART:20260221T020000Z
 DTEND:20260221T030000Z
@@ -1395,173 +1362,71 @@ DESCRIPTION:WorldSBK\n\nSession: Race 2\nCircuit: Phillip Island\nCountry:
 LOCATION:Phillip Island
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Cremona - Superpole
-DTSTART:20260926T091500Z
-DTEND:20260926T101500Z
-UID:400d0c2624c82bb47765ee7720f293c9
-DESCRIPTION:WorldSBK\n\nSession: Superpole\nCircuit: Cremona\nCountry: ITA
-LOCATION:Cremona
+SUMMARY:🏍️ WSBK - Portimão - Superpole
+DTSTART:20260328T101500Z
+DTEND:20260328T111500Z
+UID:dc7f069c451ef6a41938b374ecdd95f7
+DESCRIPTION:WorldSBK\n\nSession: Superpole\nCircuit: Portimão\nCountry: P
+ OR
+LOCATION:Portimão
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Cremona - Race 1
-DTSTART:20260926T133000Z
-DTEND:20260926T143000Z
-UID:433e9b66677fe693a87f402c62f1a90e
-DESCRIPTION:WorldSBK\n\nSession: Race 1\nCircuit: Cremona\nCountry: ITA
-LOCATION:Cremona
+SUMMARY:🏍️ WSBK - Portimão - Race 1
+DTSTART:20260328T143000Z
+DTEND:20260328T153000Z
+UID:a61397d8004acf2c218efa0ff04374c6
+DESCRIPTION:WorldSBK\n\nSession: Race 1\nCircuit: Portimão\nCountry: POR
+LOCATION:Portimão
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Cremona - Superpole Race
-DTSTART:20260927T091000Z
-DTEND:20260927T094000Z
-UID:6b944adaaf052024b8c77b5f0073686e
-DESCRIPTION:WorldSBK\n\nSession: Superpole Race\nCircuit: Cremona\nCountry
- : ITA
-LOCATION:Cremona
+SUMMARY:🏍️ WSBK - Portimão - Superpole Race
+DTSTART:20260329T091000Z
+DTEND:20260329T094000Z
+UID:00b97d7f222514bef105788ec1df64be
+DESCRIPTION:WorldSBK\n\nSession: Superpole Race\nCircuit: Portimão\nCount
+ ry: POR
+LOCATION:Portimão
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Cremona - Race 2
-DTSTART:20260927T133000Z
-DTEND:20260927T143000Z
-UID:c4fae5f509bb5535b946da4006847b17
-DESCRIPTION:WorldSBK\n\nSession: Race 2\nCircuit: Cremona\nCountry: ITA
-LOCATION:Cremona
+SUMMARY:🏍️ WSBK - Portimão - Race 2
+DTSTART:20260329T133000Z
+DTEND:20260329T143000Z
+UID:ac50a18810ba24c49b01370e94e2b0da
+DESCRIPTION:WorldSBK\n\nSession: Race 2\nCircuit: Portimão\nCountry: POR
+LOCATION:Portimão
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Most - Superpole
-DTSTART:20260516T091500Z
-DTEND:20260516T101500Z
-UID:b9dd1c3a5174e4f182c12ddb98a1fb4b
-DESCRIPTION:WorldSBK\n\nSession: Superpole\nCircuit: Most\nCountry: CZE
-LOCATION:Most
+SUMMARY:🏍️ WSBK - Assen - Superpole
+DTSTART:20260418T091500Z
+DTEND:20260418T101500Z
+UID:608c25cbcdc9e9341075c565d0b91da3
+DESCRIPTION:WorldSBK\n\nSession: Superpole\nCircuit: Assen\nCountry: NED
+LOCATION:Assen
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Most - Race 1
-DTSTART:20260516T120000Z
-DTEND:20260516T130000Z
-UID:a91c72e8c86bc47fa2e9c96a1ce2cfae
-DESCRIPTION:WorldSBK\n\nSession: Race 1\nCircuit: Most\nCountry: CZE
-LOCATION:Most
+SUMMARY:🏍️ WSBK - Assen - Race 1
+DTSTART:20260418T133000Z
+DTEND:20260418T143000Z
+UID:d824336df0c95b39cba1a1235529e36d
+DESCRIPTION:WorldSBK\n\nSession: Race 1\nCircuit: Assen\nCountry: NED
+LOCATION:Assen
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Most - Superpole Race
-DTSTART:20260517T091000Z
-DTEND:20260517T094000Z
-UID:d5851acc8ed98c7edf02deb880253922
-DESCRIPTION:WorldSBK\n\nSession: Superpole Race\nCircuit: Most\nCountry: C
- ZE
-LOCATION:Most
+SUMMARY:🏍️ WSBK - Assen - Superpole Race
+DTSTART:20260419T091000Z
+DTEND:20260419T094000Z
+UID:75eae2a1566be1bfaa1682f669795c17
+DESCRIPTION:WorldSBK\n\nSession: Superpole Race\nCircuit: Assen\nCountry: 
+ NED
+LOCATION:Assen
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Most - Race 2
-DTSTART:20260517T133000Z
-DTEND:20260517T143000Z
-UID:bf04d4706a3475bbd08df2ab548ff32f
-DESCRIPTION:WorldSBK\n\nSession: Race 2\nCircuit: Most\nCountry: CZE
-LOCATION:Most
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Estoril - Superpole
-DTSTART:20261010T101500Z
-DTEND:20261010T111500Z
-UID:0c78a314e4792a4da018ebfa8899542e
-DESCRIPTION:WorldSBK\n\nSession: Superpole\nCircuit: Estoril\nCountry: POR
-LOCATION:Estoril
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Estoril - Race 1
-DTSTART:20261010T143000Z
-DTEND:20261010T153000Z
-UID:e20e3b4eb61146ff9807671dec1ad50f
-DESCRIPTION:WorldSBK\n\nSession: Race 1\nCircuit: Estoril\nCountry: POR
-LOCATION:Estoril
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Estoril - Superpole Race
-DTSTART:20261011T101000Z
-DTEND:20261011T104000Z
-UID:298873a357c6dfee49e5a425010d2bc8
-DESCRIPTION:WorldSBK\n\nSession: Superpole Race\nCircuit: Estoril\nCountry
- : POR
-LOCATION:Estoril
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Estoril - Race 2
-DTSTART:20261011T143000Z
-DTEND:20261011T153000Z
-UID:8f2398a372f0c9b5f9095e3a21b363e4
-DESCRIPTION:WorldSBK\n\nSession: Race 2\nCircuit: Estoril\nCountry: POR
-LOCATION:Estoril
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Magny-Cours - Superpole
-DTSTART:20260905T091500Z
-DTEND:20260905T101500Z
-UID:3854faadfedc547e2009d6785bf8b6d2
-DESCRIPTION:WorldSBK\n\nSession: Superpole\nCircuit: Magny-Cours\nCountry:
-  FRA
-LOCATION:Magny-Cours
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Magny-Cours - Race 1
-DTSTART:20260905T133000Z
-DTEND:20260905T143000Z
-UID:f8af2164e96a0107e00facdc61ba6449
-DESCRIPTION:WorldSBK\n\nSession: Race 1\nCircuit: Magny-Cours\nCountry: FR
- A
-LOCATION:Magny-Cours
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Magny-Cours - Superpole Race
-DTSTART:20260906T091000Z
-DTEND:20260906T094000Z
-UID:e75ed00a33662f757fffbf976d41458f
-DESCRIPTION:WorldSBK\n\nSession: Superpole Race\nCircuit: Magny-Cours\nCou
- ntry: FRA
-LOCATION:Magny-Cours
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Magny-Cours - Race 2
-DTSTART:20260906T120000Z
-DTEND:20260906T130000Z
-UID:075b67d95313fc32e30d61692a279bdc
-DESCRIPTION:WorldSBK\n\nSession: Race 2\nCircuit: Magny-Cours\nCountry: FR
- A
-LOCATION:Magny-Cours
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Donington - Superpole
-DTSTART:20260711T100000Z
-DTEND:20260711T110000Z
-UID:8ff0d2b57f728dbac23c9861512ff270
-DESCRIPTION:WorldSBK\n\nSession: Superpole\nCircuit: Donington\nCountry: G
- BR
-LOCATION:Donington
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Donington - Race 1
-DTSTART:20260711T143000Z
-DTEND:20260711T153000Z
-UID:67c8f2ceaf4deed80960443c6e8849be
-DESCRIPTION:WorldSBK\n\nSession: Race 1\nCircuit: Donington\nCountry: GBR
-LOCATION:Donington
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Donington - Superpole Race
-DTSTART:20260712T101000Z
-DTEND:20260712T104000Z
-UID:891c9cbee37872b89fb7985ef780c88b
-DESCRIPTION:WorldSBK\n\nSession: Superpole Race\nCircuit: Donington\nCount
- ry: GBR
-LOCATION:Donington
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Donington - Race 2
-DTSTART:20260712T143000Z
-DTEND:20260712T153000Z
-UID:8080d8e7f756b3c83f24fc5929042488
-DESCRIPTION:WorldSBK\n\nSession: Race 2\nCircuit: Donington\nCountry: GBR
-LOCATION:Donington
+SUMMARY:🏍️ WSBK - Assen - Race 2
+DTSTART:20260419T133000Z
+DTEND:20260419T143000Z
+UID:86cf61f171ae0593353bdb370abc8e8e
+DESCRIPTION:WorldSBK\n\nSession: Race 2\nCircuit: Assen\nCountry: NED
+LOCATION:Assen
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🏍️ WSBK - Balaton Park - Superpole
@@ -1600,6 +1465,72 @@ DESCRIPTION:WorldSBK\n\nSession: Race 2\nCircuit: Balaton Park\nCountry: H
 LOCATION:Balaton Park
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🏍️ WSBK - Most - Superpole
+DTSTART:20260516T091500Z
+DTEND:20260516T101500Z
+UID:b9dd1c3a5174e4f182c12ddb98a1fb4b
+DESCRIPTION:WorldSBK\n\nSession: Superpole\nCircuit: Most\nCountry: CZE
+LOCATION:Most
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ WSBK - Most - Race 1
+DTSTART:20260516T120000Z
+DTEND:20260516T130000Z
+UID:a91c72e8c86bc47fa2e9c96a1ce2cfae
+DESCRIPTION:WorldSBK\n\nSession: Race 1\nCircuit: Most\nCountry: CZE
+LOCATION:Most
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ WSBK - Most - Superpole Race
+DTSTART:20260517T091000Z
+DTEND:20260517T094000Z
+UID:d5851acc8ed98c7edf02deb880253922
+DESCRIPTION:WorldSBK\n\nSession: Superpole Race\nCircuit: Most\nCountry: C
+ ZE
+LOCATION:Most
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ WSBK - Most - Race 2
+DTSTART:20260517T133000Z
+DTEND:20260517T143000Z
+UID:bf04d4706a3475bbd08df2ab548ff32f
+DESCRIPTION:WorldSBK\n\nSession: Race 2\nCircuit: Most\nCountry: CZE
+LOCATION:Most
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ WSBK - Aragon - Superpole
+DTSTART:20260530T091500Z
+DTEND:20260530T101500Z
+UID:2fb91447a637dadf28215817a0e338d5
+DESCRIPTION:WorldSBK\n\nSession: Superpole\nCircuit: Aragon\nCountry: ESP
+LOCATION:Aragon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ WSBK - Aragon - Race 1
+DTSTART:20260530T120000Z
+DTEND:20260530T130000Z
+UID:4687196b73d87731a6e39aa7edeb9259
+DESCRIPTION:WorldSBK\n\nSession: Race 1\nCircuit: Aragon\nCountry: ESP
+LOCATION:Aragon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ WSBK - Aragon - Superpole Race
+DTSTART:20260531T091000Z
+DTEND:20260531T094000Z
+UID:b007a9c2f31cccacc6909b6545763116
+DESCRIPTION:WorldSBK\n\nSession: Superpole Race\nCircuit: Aragon\nCountry:
+  ESP
+LOCATION:Aragon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ WSBK - Aragon - Race 2
+DTSTART:20260531T133000Z
+DTEND:20260531T143000Z
+UID:2838bcd3d2d3faddd593a67725e17a4c
+DESCRIPTION:WorldSBK\n\nSession: Race 2\nCircuit: Aragon\nCountry: ESP
+LOCATION:Aragon
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🏍️ WSBK - Misano - Superpole
 DTSTART:20260613T091500Z
 DTEND:20260613T101500Z
@@ -1631,6 +1562,142 @@ DTEND:20260614T130000Z
 UID:1362041b490e0680a8537eae5b4d7386
 DESCRIPTION:WorldSBK\n\nSession: Race 2\nCircuit: Misano\nCountry: ITA
 LOCATION:Misano
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ WSBK - Donington - Superpole
+DTSTART:20260711T100000Z
+DTEND:20260711T110000Z
+UID:8ff0d2b57f728dbac23c9861512ff270
+DESCRIPTION:WorldSBK\n\nSession: Superpole\nCircuit: Donington\nCountry: G
+ BR
+LOCATION:Donington
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ WSBK - Donington - Race 1
+DTSTART:20260711T143000Z
+DTEND:20260711T153000Z
+UID:67c8f2ceaf4deed80960443c6e8849be
+DESCRIPTION:WorldSBK\n\nSession: Race 1\nCircuit: Donington\nCountry: GBR
+LOCATION:Donington
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ WSBK - Donington - Superpole Race
+DTSTART:20260712T101000Z
+DTEND:20260712T104000Z
+UID:891c9cbee37872b89fb7985ef780c88b
+DESCRIPTION:WorldSBK\n\nSession: Superpole Race\nCircuit: Donington\nCount
+ ry: GBR
+LOCATION:Donington
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ WSBK - Donington - Race 2
+DTSTART:20260712T143000Z
+DTEND:20260712T153000Z
+UID:8080d8e7f756b3c83f24fc5929042488
+DESCRIPTION:WorldSBK\n\nSession: Race 2\nCircuit: Donington\nCountry: GBR
+LOCATION:Donington
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ WSBK - Magny-Cours - Superpole
+DTSTART:20260905T091500Z
+DTEND:20260905T101500Z
+UID:3854faadfedc547e2009d6785bf8b6d2
+DESCRIPTION:WorldSBK\n\nSession: Superpole\nCircuit: Magny-Cours\nCountry:
+  FRA
+LOCATION:Magny-Cours
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ WSBK - Magny-Cours - Race 1
+DTSTART:20260905T133000Z
+DTEND:20260905T143000Z
+UID:f8af2164e96a0107e00facdc61ba6449
+DESCRIPTION:WorldSBK\n\nSession: Race 1\nCircuit: Magny-Cours\nCountry: FR
+ A
+LOCATION:Magny-Cours
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ WSBK - Magny-Cours - Superpole Race
+DTSTART:20260906T091000Z
+DTEND:20260906T094000Z
+UID:e75ed00a33662f757fffbf976d41458f
+DESCRIPTION:WorldSBK\n\nSession: Superpole Race\nCircuit: Magny-Cours\nCou
+ ntry: FRA
+LOCATION:Magny-Cours
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ WSBK - Magny-Cours - Race 2
+DTSTART:20260906T120000Z
+DTEND:20260906T130000Z
+UID:075b67d95313fc32e30d61692a279bdc
+DESCRIPTION:WorldSBK\n\nSession: Race 2\nCircuit: Magny-Cours\nCountry: FR
+ A
+LOCATION:Magny-Cours
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ WSBK - Cremona - Superpole
+DTSTART:20260926T091500Z
+DTEND:20260926T101500Z
+UID:400d0c2624c82bb47765ee7720f293c9
+DESCRIPTION:WorldSBK\n\nSession: Superpole\nCircuit: Cremona\nCountry: ITA
+LOCATION:Cremona
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ WSBK - Cremona - Race 1
+DTSTART:20260926T133000Z
+DTEND:20260926T143000Z
+UID:433e9b66677fe693a87f402c62f1a90e
+DESCRIPTION:WorldSBK\n\nSession: Race 1\nCircuit: Cremona\nCountry: ITA
+LOCATION:Cremona
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ WSBK - Cremona - Superpole Race
+DTSTART:20260927T091000Z
+DTEND:20260927T094000Z
+UID:6b944adaaf052024b8c77b5f0073686e
+DESCRIPTION:WorldSBK\n\nSession: Superpole Race\nCircuit: Cremona\nCountry
+ : ITA
+LOCATION:Cremona
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ WSBK - Cremona - Race 2
+DTSTART:20260927T133000Z
+DTEND:20260927T143000Z
+UID:c4fae5f509bb5535b946da4006847b17
+DESCRIPTION:WorldSBK\n\nSession: Race 2\nCircuit: Cremona\nCountry: ITA
+LOCATION:Cremona
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ WSBK - Estoril - Superpole
+DTSTART:20261010T101500Z
+DTEND:20261010T111500Z
+UID:0c78a314e4792a4da018ebfa8899542e
+DESCRIPTION:WorldSBK\n\nSession: Superpole\nCircuit: Estoril\nCountry: POR
+LOCATION:Estoril
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ WSBK - Estoril - Race 1
+DTSTART:20261010T143000Z
+DTEND:20261010T153000Z
+UID:e20e3b4eb61146ff9807671dec1ad50f
+DESCRIPTION:WorldSBK\n\nSession: Race 1\nCircuit: Estoril\nCountry: POR
+LOCATION:Estoril
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ WSBK - Estoril - Superpole Race
+DTSTART:20261011T101000Z
+DTEND:20261011T104000Z
+UID:298873a357c6dfee49e5a425010d2bc8
+DESCRIPTION:WorldSBK\n\nSession: Superpole Race\nCircuit: Estoril\nCountry
+ : POR
+LOCATION:Estoril
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ WSBK - Estoril - Race 2
+DTSTART:20261011T143000Z
+DTEND:20261011T153000Z
+UID:8f2398a372f0c9b5f9095e3a21b363e4
+DESCRIPTION:WorldSBK\n\nSession: Race 2\nCircuit: Estoril\nCountry: POR
+LOCATION:Estoril
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🏍️ WSBK - Jerez - Superpole
@@ -1666,71 +1733,188 @@ DESCRIPTION:WorldSBK\n\nSession: Race 2\nCircuit: Jerez\nCountry: ESP
 LOCATION:Jerez
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Assen - Superpole
-DTSTART:20260418T091500Z
-DTEND:20260418T101500Z
-UID:608c25cbcdc9e9341075c565d0b91da3
-DESCRIPTION:WorldSBK\n\nSession: Superpole\nCircuit: Assen\nCountry: NED
-LOCATION:Assen
+SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n1st ODI
+DTSTART:20260924T100000
+DTEND:20260924T180000
+UID:f9b4bd67f0f68e984682848c5fb01bf5
+DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa - 1st ODI\nV
+ enue: Hollywoodbets Kingsmead Stadium\, Durban\nDate: 24/09/26\nTime: 10:0
+ 0
+LOCATION:Hollywoodbets Kingsmead Stadium\, Durban
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Assen - Race 1
-DTSTART:20260418T133000Z
-DTEND:20260418T143000Z
-UID:d824336df0c95b39cba1a1235529e36d
-DESCRIPTION:WorldSBK\n\nSession: Race 1\nCircuit: Assen\nCountry: NED
-LOCATION:Assen
+SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n2nd ODI
+DTSTART:20260927T100000
+DTEND:20260927T180000
+UID:0f1fe380f3800af285009d1b0f69cfc1
+DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa - 2nd ODI\nV
+ enue: DP World Wanderers Stadium\, Johannesburg\nDate: 27/09/26\nTime: 10:
+ 00
+LOCATION:DP World Wanderers Stadium\, Johannesburg
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Assen - Superpole Race
-DTSTART:20260419T091000Z
-DTEND:20260419T094000Z
-UID:75eae2a1566be1bfaa1682f669795c17
-DESCRIPTION:WorldSBK\n\nSession: Superpole Race\nCircuit: Assen\nCountry: 
- NED
-LOCATION:Assen
+SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n1st Test
+DTSTART:20261009T093000
+DTEND:20261014T093000
+UID:d2195f9d6b78ede90e4b8ab65dfdcfbe
+DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa – 1st Test
+ \nVenue: Hollywoodbets Kingsmead Stadium\, Durban\nDate: 09/10/26\nTime: 0
+ 9:30
+LOCATION:Hollywoodbets Kingsmead Stadium\, Durban
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Assen - Race 2
-DTSTART:20260419T133000Z
-DTEND:20260419T143000Z
-UID:86cf61f171ae0593353bdb370abc8e8e
-DESCRIPTION:WorldSBK\n\nSession: Race 2\nCircuit: Assen\nCountry: NED
-LOCATION:Assen
+SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n2nd Test
+DTSTART:20261018T100000
+DTEND:20261023T100000
+UID:fd4f76a6809d6fc09d9722a975098225
+DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa – 2nd Test
+ \nVenue: Dafabet St George's Park\, Gqeberha\nDate: 18/10/26\nTime: 10:00
+LOCATION:Dafabet St George's Park\, Gqeberha
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Portimão - Superpole
-DTSTART:20260328T101500Z
-DTEND:20260328T111500Z
-UID:dc7f069c451ef6a41938b374ecdd95f7
-DESCRIPTION:WorldSBK\n\nSession: Superpole\nCircuit: Portimão\nCountry: P
- OR
-LOCATION:Portimão
+SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n3rd ODI
+DTSTART:20261027T133000
+DTEND:20261027T213000
+UID:0c8f9d0de603c2b25ca7c2fbd2a9df24
+DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa - 3rd ODI\nV
+ enue: JB Marks Oval\, Potchefstroom\nDate: 27/10/26\nTime: 13:30
+LOCATION:JB Marks Oval\, Potchefstroom
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Portimão - Race 1
-DTSTART:20260328T143000Z
-DTEND:20260328T153000Z
-UID:a61397d8004acf2c218efa0ff04374c6
-DESCRIPTION:WorldSBK\n\nSession: Race 1\nCircuit: Portimão\nCountry: POR
-LOCATION:Portimão
+SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n3rd Test
+DTSTART:20261031T103000
+DTEND:20261105T103000
+UID:80e969750e8a791e80c279e146dfbdbc
+DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa – 3rd Test
+ \nVenue: WSB Newlands Cricket Ground\, Cape Town\nDate: 31/10/26\nTime: 10
+ :30
+LOCATION:WSB Newlands Cricket Ground\, Cape Town
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Portimão - Superpole Race
-DTSTART:20260329T091000Z
-DTEND:20260329T094000Z
-UID:00b97d7f222514bef105788ec1df64be
-DESCRIPTION:WorldSBK\n\nSession: Superpole Race\nCircuit: Portimão\nCount
- ry: POR
-LOCATION:Portimão
+SUMMARY:🏏 Proteas\nSouth Africa vs Bangladesh\n1st Test
+DTSTART:20261115T100000
+DTEND:20261120T100000
+UID:d38c2fa0b2e5addde0a9afae2d13bf05
+DESCRIPTION:Proteas\n\nSeries: Bangladesh Men's 1st Test\nVenue: DP World 
+ Wanderers Stadium\, Johannesburg\nDate: 15/11/26\nTime: 10:00
+LOCATION:DP World Wanderers Stadium\, Johannesburg
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏍️ WSBK - Portimão - Race 2
-DTSTART:20260329T133000Z
-DTEND:20260329T143000Z
-UID:ac50a18810ba24c49b01370e94e2b0da
-DESCRIPTION:WorldSBK\n\nSession: Race 2\nCircuit: Portimão\nCountry: POR
-LOCATION:Portimão
+SUMMARY:🏉 Springboks vs Barbarians\nFriendlies
+DTSTART:20260620T130000Z
+DTEND:20260620T160000Z
+UID:9356b8eea4d0a9c5e3772f5fbd226ed6
+DESCRIPTION:Springboks\n\nCompetition: Friendlies\nRound: Round 1\nOpponen
+ t: Barbarians\nVenue: Nelson Mandela Bay Stadium\, Gqeberha
+LOCATION:Nelson Mandela Bay Stadium\, Gqeberha
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏉 Springboks vs England\nNations Championship
+DTSTART:20260704T154000Z
+DTEND:20260704T184000Z
+UID:2c121fa333261965b9a60ca7a6a8b137
+DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round 
+ 1\nOpponent: England\nVenue: Ellis Park\, Johannesburg
+LOCATION:Ellis Park\, Johannesburg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏉 Springboks vs Scotland\nNations Championship
+DTSTART:20260711T154000Z
+DTEND:20260711T184000Z
+UID:697abee41ee17fc42f326cedcf990b14
+DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round 
+ 2\nOpponent: Scotland\nVenue: Loftus Versfeld\, Pretoria
+LOCATION:Loftus Versfeld\, Pretoria
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏉 Springboks vs Wales\nNations Championship
+DTSTART:20260718T154000Z
+DTEND:20260718T184000Z
+UID:cb6da2585c6af9b04324cead191dd66c
+DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round 
+ 3\nOpponent: Wales\nVenue: Kings Park\, Durban
+LOCATION:Kings Park\, Durban
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏉 Argentina vs Springboks\nInternationals
+DTSTART:20260808T180000Z
+DTEND:20260808T210000Z
+UID:2647ae795837e642fb13d0daf72254fb
+DESCRIPTION:Springboks\n\nCompetition: Internationals\nRound: Round 1\nOpp
+ onent: Argentina\nVenue: Estadio Jose Amalfitani\, Buenos Aires
+LOCATION:Estadio Jose Amalfitani\, Buenos Aires
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏉 Springboks vs New Zealand\nRugby's Greatest Rivalry Tour
+DTSTART:20260822T151000Z
+DTEND:20260822T181000Z
+UID:61ca62a22438754758b76b3390a3479a
+DESCRIPTION:Springboks\n\nCompetition: Rugby's Greatest Rivalry Tour\nRoun
+ d: 1st Test\nOpponent: New Zealand\nVenue: Ellis Park\, Johannesburg
+LOCATION:Ellis Park\, Johannesburg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏉 Springboks vs New Zealand\nRugby's Greatest Rivalry Tour
+DTSTART:20260829T151000Z
+DTEND:20260829T181000Z
+UID:0d7cadf343f86539909e89fb736b3074
+DESCRIPTION:Springboks\n\nCompetition: Rugby's Greatest Rivalry Tour\nRoun
+ d: 2nd Test\nOpponent: New Zealand\nVenue: DHL Stadium\, Cape Town
+LOCATION:DHL Stadium\, Cape Town
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏉 Springboks vs New Zealand\nRugby's Greatest Rivalry Tour
+DTSTART:20260905T151000Z
+DTEND:20260905T181000Z
+UID:63e6b2f72923f1dc48a8cfb0a027b9b7
+DESCRIPTION:Springboks\n\nCompetition: Rugby's Greatest Rivalry Tour\nRoun
+ d: 3rd Test\nOpponent: New Zealand\nVenue: FNB Stadium\, Johannesburg
+LOCATION:FNB Stadium\, Johannesburg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏉 Springboks vs New Zealand\nRugby's Greatest Rivalry Tour
+DTSTART:20260912T210000Z
+DTEND:20260913T000000Z
+UID:d1a3042d900a5ad5d47a310d65abaf5f
+DESCRIPTION:Springboks\n\nCompetition: Rugby's Greatest Rivalry Tour\nRoun
+ d: 4th Test\nOpponent: New Zealand\nVenue: M&T Bank Stadium\, Baltimore
+LOCATION:M&T Bank Stadium\, Baltimore
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏉 Australia vs Springboks\nInternationals
+DTSTART:20260927T093000Z
+DTEND:20260927T123000Z
+UID:69d9800f30703d9d89fe6520eaf8ddeb
+DESCRIPTION:Springboks\n\nCompetition: Internationals\nRound: Round 1\nOpp
+ onent: Australia\nVenue: Optus Stadium\, Perth
+LOCATION:Optus Stadium\, Perth
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏉 Italy vs Springboks\nNations Championship
+DTSTART:20261107T114000Z
+DTEND:20261107T144000Z
+UID:29c2f4724c098f72e03516e1598d0142
+DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round 
+ 4\nOpponent: Italy\nVenue: Allianz Stadium\, Turin
+LOCATION:Allianz Stadium\, Turin
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏉 France vs Springboks\nNations Championship
+DTSTART:20261113T201000Z
+DTEND:20261113T231000Z
+UID:a415e93c2909ffdabe9dbaf614c4926d
+DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round 
+ 5\nOpponent: France\nVenue: Stade de France\, Saint-Denis
+LOCATION:Stade de France\, Saint-Denis
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏉 Ireland vs Springboks\nNations Championship
+DTSTART:20261121T164000Z
+DTEND:20261121T194000Z
+UID:86b5cd9a0d674a670d6bf5b2425c1910
+DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round 
+ 6\nOpponent: Ireland\nVenue: Aviva Stadium\, Dublin
+LOCATION:Aviva Stadium\, Dublin
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🏍️ MotoAmerica - Daytona
@@ -1866,324 +2050,5 @@ DESCRIPTION:MotoAmerica Superbike Speedfest at Monterey Presented By Law T
  e 2 (20 laps)\n\nOfficial Event Page:\nhttps://motoamerica.com/laguna-seca
  \n\nOfficial MotoAmerica Schedule:\nhttps://www.motoamerica.com/event/
 LOCATION:WeatherTech Raceway Laguna Seca\, CA
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n1st ODI
-DTSTART:20260924T100000
-DTEND:20260924T180000
-UID:f9b4bd67f0f68e984682848c5fb01bf5
-DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa - 1st ODI\nV
- enue: Hollywoodbets Kingsmead Stadium\, Durban\nDate: 24/09/26\nTime: 10:0
- 0
-LOCATION:Hollywoodbets Kingsmead Stadium\, Durban
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n2nd ODI
-DTSTART:20260927T100000
-DTEND:20260927T180000
-UID:0f1fe380f3800af285009d1b0f69cfc1
-DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa - 2nd ODI\nV
- enue: DP World Wanderers Stadium\, Johannesburg\nDate: 27/09/26\nTime: 10:
- 00
-LOCATION:DP World Wanderers Stadium\, Johannesburg
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n1st Test
-DTSTART:20261009T093000
-DTEND:20261014T093000
-UID:d2195f9d6b78ede90e4b8ab65dfdcfbe
-DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa – 1st Test
- \nVenue: Hollywoodbets Kingsmead Stadium\, Durban\nDate: 09/10/26\nTime: 0
- 9:30
-LOCATION:Hollywoodbets Kingsmead Stadium\, Durban
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n2nd Test
-DTSTART:20261018T100000
-DTEND:20261023T100000
-UID:fd4f76a6809d6fc09d9722a975098225
-DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa – 2nd Test
- \nVenue: Dafabet St George's Park\, Gqeberha\nDate: 18/10/26\nTime: 10:00
-LOCATION:Dafabet St George's Park\, Gqeberha
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n3rd ODI
-DTSTART:20261027T133000
-DTEND:20261027T213000
-UID:0c8f9d0de603c2b25ca7c2fbd2a9df24
-DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa - 3rd ODI\nV
- enue: JB Marks Oval\, Potchefstroom\nDate: 27/10/26\nTime: 13:30
-LOCATION:JB Marks Oval\, Potchefstroom
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n3rd Test
-DTSTART:20261031T103000
-DTEND:20261105T103000
-UID:80e969750e8a791e80c279e146dfbdbc
-DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa – 3rd Test
- \nVenue: WSB Newlands Cricket Ground\, Cape Town\nDate: 31/10/26\nTime: 10
- :30
-LOCATION:WSB Newlands Cricket Ground\, Cape Town
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏏 Proteas\nSouth Africa vs Bangladesh\n1st Test
-DTSTART:20261116T100000
-DTEND:20261121T100000
-UID:d0eaef6c668548576ab2bfc9fcf1c6b9
-DESCRIPTION:Proteas\n\nSeries: Bangladesh Men's 1st Test\nVenue: DP World 
- Wanderers Stadium\, Johannesburg\nDate: 16/11/26\nTime: 10:00
-LOCATION:DP World Wanderers Stadium\, Johannesburg
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs Barbarians\nFriendlies
-DTSTART:20250628T151000Z
-DTEND:20250628T181000Z
-UID:e9f8f142058a08c1bcafdc991fe38346
-DESCRIPTION:Springboks\n\nCompetition: Friendlies\nRound: Qatar Airways Cu
- p\nOpponent: Barbarians\nVenue: DHL Stadium\, Cape Town
-LOCATION:DHL Stadium\, Cape Town
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs Italy\nCastle Lager Incoming Series
-DTSTART:20250705T151000Z
-DTEND:20250705T181000Z
-UID:15b626f37a3ec8e057eed19e60c0f94a
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Incoming Series\nRound
- : Round 1\nOpponent: Italy\nVenue: Loftus Versfeld\, Pretoria
-LOCATION:Loftus Versfeld\, Pretoria
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs Italy\nCastle Lager Incoming Series
-DTSTART:20250712T150000Z
-DTEND:20250712T180000Z
-UID:4078e9ea02f50bc10b01ff6d930e8659
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Incoming Series\nRound
- : Round 2\nOpponent: Italy\nVenue: Nelson Mandela Bay Stadium\, Gqeberha
-LOCATION:Nelson Mandela Bay Stadium\, Gqeberha
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs Georgia\nCastle Lager Incoming Series
-DTSTART:20250719T151000Z
-DTEND:20250719T181000Z
-UID:aadd87a398e1bc2ef8fc5617ea0e5372
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Incoming Series\nRound
- : Round 3\nOpponent: Georgia\nVenue: Mbombela Stadium\, Nelspruit
-LOCATION:Mbombela Stadium\, Nelspruit
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs Australia\nCastle Lager Rugby Championship
-DTSTART:20250816T151000Z
-DTEND:20250816T181000Z
-UID:7edcaddfd9479f8f11f84186e2749345
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Rugby Championship\nRo
- und: Round 1\nOpponent: Australia\nVenue: Ellis Park\, Johannesburg
-LOCATION:Ellis Park\, Johannesburg
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs Australia\nCastle Lager Rugby Championship
-DTSTART:20250823T150000Z
-DTEND:20250823T180000Z
-UID:ea71384e52ed17ba55c63c259c31e786
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Rugby Championship\nRo
- und: Round 2\nOpponent: Australia\nVenue: DHL Stadium\, Cape Town
-LOCATION:DHL Stadium\, Cape Town
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 New Zealand vs Springboks\nCastle Lager Rugby Championship
-DTSTART:20250906T070500Z
-DTEND:20250906T100500Z
-UID:be33c788c57d666382dc75221cff8ae5
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Rugby Championship\nRo
- und: Round 3\nOpponent: New Zealand\nVenue: Eden Park\, Auckland
-LOCATION:Eden Park\, Auckland
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 New Zealand vs Springboks\nCastle Lager Rugby Championship
-DTSTART:20250913T070500Z
-DTEND:20250913T100500Z
-UID:482f5b58890c260c22fda7967d4dbeb0
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Rugby Championship\nRo
- und: Round 4\nOpponent: New Zealand\nVenue: Hnry Stadium\, Wellington
-LOCATION:Hnry Stadium\, Wellington
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs Argentina\nCastle Lager Rugby Championship
-DTSTART:20250927T151000Z
-DTEND:20250927T181000Z
-UID:6cd832001d407de5c05733e21c1f939b
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Rugby Championship\nRo
- und: Round 5\nOpponent: Argentina\nVenue: Kings Park\, Durban
-LOCATION:Kings Park\, Durban
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Argentina vs Springboks\nCastle Lager Rugby Championship
-DTSTART:20251004T130000Z
-DTEND:20251004T160000Z
-UID:02768c8636b664e58710134d5b53d51e
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Rugby Championship\nRo
- und: Round 6\nOpponent: Argentina\nVenue: Allianz Stadium\, London
-LOCATION:Allianz Stadium\, London
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Japan vs Springboks\nCastle Lager Outgoing Tour
-DTSTART:20251101T161000Z
-DTEND:20251101T191000Z
-UID:a07e000905d06c07c051b58405483130
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Outgoing Tour\nRound: 
- Round 1\nOpponent: Japan\nVenue: Wembley Stadium\, London
-LOCATION:Wembley Stadium\, London
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 France vs Springboks\nCastle Lager Outgoing Tour
-DTSTART:20251108T201000Z
-DTEND:20251108T231000Z
-UID:f33fabec3245dd9d5defe5dceb2fe68b
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Outgoing Tour\nRound: 
- Round 2\nOpponent: France\nVenue: Stade de France\, Saint-Denis
-LOCATION:Stade de France\, Saint-Denis
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Italy vs Springboks\nCastle Lager Outgoing Tour
-DTSTART:20251115T124000Z
-DTEND:20251115T154000Z
-UID:ed8a20851ea83dc3da755e434187a91f
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Outgoing Tour\nRound: 
- Round 3\nOpponent: Italy\nVenue: Allianz Stadium\, Turin
-LOCATION:Allianz Stadium\, Turin
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Ireland vs Springboks\nCastle Lager Outgoing Tour
-DTSTART:20251122T174000Z
-DTEND:20251122T204000Z
-UID:41fe7f2e7a70732ebce769d3f86faf2d
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Outgoing Tour\nRound: 
- Round 4\nOpponent: Ireland\nVenue: Aviva Stadium\, Dublin
-LOCATION:Aviva Stadium\, Dublin
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Wales vs Springboks\nCastle Lager Outgoing Tour
-DTSTART:20251129T151000Z
-DTEND:20251129T181000Z
-UID:9d7747490952ad3e799cbefdf9b457b8
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Outgoing Tour\nRound: 
- Round 5\nOpponent: Wales\nVenue: Principality Stadium\, Cardiff
-LOCATION:Principality Stadium\, Cardiff
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs Barbarians\nFriendlies
-DTSTART:20260620T130000Z
-DTEND:20260620T160000Z
-UID:9356b8eea4d0a9c5e3772f5fbd226ed6
-DESCRIPTION:Springboks\n\nCompetition: Friendlies\nRound: Round 1\nOpponen
- t: Barbarians\nVenue: Nelson Mandela Bay Stadium\, Gqeberha
-LOCATION:Nelson Mandela Bay Stadium\, Gqeberha
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs England\nNations Championship
-DTSTART:20260704T154000Z
-DTEND:20260704T184000Z
-UID:2c121fa333261965b9a60ca7a6a8b137
-DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round 
- 1\nOpponent: England\nVenue: Ellis Park\, Johannesburg
-LOCATION:Ellis Park\, Johannesburg
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs Scotland\nNations Championship
-DTSTART:20260711T154000Z
-DTEND:20260711T184000Z
-UID:697abee41ee17fc42f326cedcf990b14
-DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round 
- 2\nOpponent: Scotland\nVenue: Loftus Versfeld\, Pretoria
-LOCATION:Loftus Versfeld\, Pretoria
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs Wales\nNations Championship
-DTSTART:20260718T154000Z
-DTEND:20260718T184000Z
-UID:cb6da2585c6af9b04324cead191dd66c
-DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round 
- 3\nOpponent: Wales\nVenue: Kings Park\, Durban
-LOCATION:Kings Park\, Durban
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Argentina vs Springboks\nInternationals
-DTSTART:20260808T180000Z
-DTEND:20260808T210000Z
-UID:2647ae795837e642fb13d0daf72254fb
-DESCRIPTION:Springboks\n\nCompetition: Internationals\nRound: Round 1\nOpp
- onent: Argentina\nVenue: Estadio Jose Amalfitani\, Buenos Aires
-LOCATION:Estadio Jose Amalfitani\, Buenos Aires
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs New Zealand\nRugby's Greatest Rivalry Tour
-DTSTART:20260822T151000Z
-DTEND:20260822T181000Z
-UID:61ca62a22438754758b76b3390a3479a
-DESCRIPTION:Springboks\n\nCompetition: Rugby's Greatest Rivalry Tour\nRoun
- d: 1st Test\nOpponent: New Zealand\nVenue: Ellis Park\, Johannesburg
-LOCATION:Ellis Park\, Johannesburg
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs New Zealand\nRugby's Greatest Rivalry Tour
-DTSTART:20260829T151000Z
-DTEND:20260829T181000Z
-UID:0d7cadf343f86539909e89fb736b3074
-DESCRIPTION:Springboks\n\nCompetition: Rugby's Greatest Rivalry Tour\nRoun
- d: 2nd Test\nOpponent: New Zealand\nVenue: DHL Stadium\, Cape Town
-LOCATION:DHL Stadium\, Cape Town
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs New Zealand\nRugby's Greatest Rivalry Tour
-DTSTART:20260905T151000Z
-DTEND:20260905T181000Z
-UID:63e6b2f72923f1dc48a8cfb0a027b9b7
-DESCRIPTION:Springboks\n\nCompetition: Rugby's Greatest Rivalry Tour\nRoun
- d: 3rd Test\nOpponent: New Zealand\nVenue: FNB Stadium\, Johannesburg
-LOCATION:FNB Stadium\, Johannesburg
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs New Zealand\nRugby's Greatest Rivalry Tour
-DTSTART:20260912T210000Z
-DTEND:20260913T000000Z
-UID:d1a3042d900a5ad5d47a310d65abaf5f
-DESCRIPTION:Springboks\n\nCompetition: Rugby's Greatest Rivalry Tour\nRoun
- d: 4th Test\nOpponent: New Zealand\nVenue: M&T Bank Stadium\, Baltimore
-LOCATION:M&T Bank Stadium\, Baltimore
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Australia vs Springboks\nInternationals
-DTSTART:20260927T093000Z
-DTEND:20260927T123000Z
-UID:69d9800f30703d9d89fe6520eaf8ddeb
-DESCRIPTION:Springboks\n\nCompetition: Internationals\nRound: Round 1\nOpp
- onent: Australia\nVenue: Optus Stadium\, Perth
-LOCATION:Optus Stadium\, Perth
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Italy vs Springboks\nNations Championship
-DTSTART:20261107T100000Z
-DTEND:20261107T130000Z
-UID:b6da273baa0b634aaff05e03c10e3189
-DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round 
- 4\nOpponent: Italy\nVenue: Venue TBD
-LOCATION:Venue TBD
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 France vs Springboks\nNations Championship
-DTSTART:20261113T100000Z
-DTEND:20261113T130000Z
-UID:85ef66b488c61bdad37e91535aa96ea6
-DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round 
- 5\nOpponent: France\nVenue: Stade de France\, Saint-Denis
-LOCATION:Stade de France\, Saint-Denis
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Ireland vs Springboks\nNations Championship
-DTSTART:20261121T100000Z
-DTEND:20261121T130000Z
-UID:a8a584372d095efc303bb6b02c07ded7
-DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round 
- 6\nOpponent: Ireland\nVenue: Aviva Stadium\, Dublin
-LOCATION:Aviva Stadium\, Dublin
 END:VEVENT
 END:VCALENDAR

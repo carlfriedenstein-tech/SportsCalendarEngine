@@ -3,141 +3,6 @@ VERSION:2.0
 PRODID:-//Sports Calendar Engine//
 BEGIN:VEVENT
 SUMMARY:🏉 Springboks vs Barbarians\nFriendlies
-DTSTART:20250628T151000Z
-DTEND:20250628T181000Z
-UID:e9f8f142058a08c1bcafdc991fe38346
-DESCRIPTION:Springboks\n\nCompetition: Friendlies\nRound: Qatar Airways Cu
- p\nOpponent: Barbarians\nVenue: DHL Stadium\, Cape Town
-LOCATION:DHL Stadium\, Cape Town
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs Italy\nCastle Lager Incoming Series
-DTSTART:20250705T151000Z
-DTEND:20250705T181000Z
-UID:15b626f37a3ec8e057eed19e60c0f94a
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Incoming Series\nRound
- : Round 1\nOpponent: Italy\nVenue: Loftus Versfeld\, Pretoria
-LOCATION:Loftus Versfeld\, Pretoria
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs Italy\nCastle Lager Incoming Series
-DTSTART:20250712T150000Z
-DTEND:20250712T180000Z
-UID:4078e9ea02f50bc10b01ff6d930e8659
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Incoming Series\nRound
- : Round 2\nOpponent: Italy\nVenue: Nelson Mandela Bay Stadium\, Gqeberha
-LOCATION:Nelson Mandela Bay Stadium\, Gqeberha
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs Georgia\nCastle Lager Incoming Series
-DTSTART:20250719T151000Z
-DTEND:20250719T181000Z
-UID:aadd87a398e1bc2ef8fc5617ea0e5372
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Incoming Series\nRound
- : Round 3\nOpponent: Georgia\nVenue: Mbombela Stadium\, Nelspruit
-LOCATION:Mbombela Stadium\, Nelspruit
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs Australia\nCastle Lager Rugby Championship
-DTSTART:20250816T151000Z
-DTEND:20250816T181000Z
-UID:7edcaddfd9479f8f11f84186e2749345
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Rugby Championship\nRo
- und: Round 1\nOpponent: Australia\nVenue: Ellis Park\, Johannesburg
-LOCATION:Ellis Park\, Johannesburg
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs Australia\nCastle Lager Rugby Championship
-DTSTART:20250823T150000Z
-DTEND:20250823T180000Z
-UID:ea71384e52ed17ba55c63c259c31e786
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Rugby Championship\nRo
- und: Round 2\nOpponent: Australia\nVenue: DHL Stadium\, Cape Town
-LOCATION:DHL Stadium\, Cape Town
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 New Zealand vs Springboks\nCastle Lager Rugby Championship
-DTSTART:20250906T070500Z
-DTEND:20250906T100500Z
-UID:be33c788c57d666382dc75221cff8ae5
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Rugby Championship\nRo
- und: Round 3\nOpponent: New Zealand\nVenue: Eden Park\, Auckland
-LOCATION:Eden Park\, Auckland
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 New Zealand vs Springboks\nCastle Lager Rugby Championship
-DTSTART:20250913T070500Z
-DTEND:20250913T100500Z
-UID:482f5b58890c260c22fda7967d4dbeb0
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Rugby Championship\nRo
- und: Round 4\nOpponent: New Zealand\nVenue: Hnry Stadium\, Wellington
-LOCATION:Hnry Stadium\, Wellington
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs Argentina\nCastle Lager Rugby Championship
-DTSTART:20250927T151000Z
-DTEND:20250927T181000Z
-UID:6cd832001d407de5c05733e21c1f939b
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Rugby Championship\nRo
- und: Round 5\nOpponent: Argentina\nVenue: Kings Park\, Durban
-LOCATION:Kings Park\, Durban
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Argentina vs Springboks\nCastle Lager Rugby Championship
-DTSTART:20251004T130000Z
-DTEND:20251004T160000Z
-UID:02768c8636b664e58710134d5b53d51e
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Rugby Championship\nRo
- und: Round 6\nOpponent: Argentina\nVenue: Allianz Stadium\, London
-LOCATION:Allianz Stadium\, London
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Japan vs Springboks\nCastle Lager Outgoing Tour
-DTSTART:20251101T161000Z
-DTEND:20251101T191000Z
-UID:a07e000905d06c07c051b58405483130
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Outgoing Tour\nRound: 
- Round 1\nOpponent: Japan\nVenue: Wembley Stadium\, London
-LOCATION:Wembley Stadium\, London
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 France vs Springboks\nCastle Lager Outgoing Tour
-DTSTART:20251108T201000Z
-DTEND:20251108T231000Z
-UID:f33fabec3245dd9d5defe5dceb2fe68b
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Outgoing Tour\nRound: 
- Round 2\nOpponent: France\nVenue: Stade de France\, Saint-Denis
-LOCATION:Stade de France\, Saint-Denis
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Italy vs Springboks\nCastle Lager Outgoing Tour
-DTSTART:20251115T124000Z
-DTEND:20251115T154000Z
-UID:ed8a20851ea83dc3da755e434187a91f
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Outgoing Tour\nRound: 
- Round 3\nOpponent: Italy\nVenue: Allianz Stadium\, Turin
-LOCATION:Allianz Stadium\, Turin
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Ireland vs Springboks\nCastle Lager Outgoing Tour
-DTSTART:20251122T174000Z
-DTEND:20251122T204000Z
-UID:41fe7f2e7a70732ebce769d3f86faf2d
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Outgoing Tour\nRound: 
- Round 4\nOpponent: Ireland\nVenue: Aviva Stadium\, Dublin
-LOCATION:Aviva Stadium\, Dublin
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Wales vs Springboks\nCastle Lager Outgoing Tour
-DTSTART:20251129T151000Z
-DTEND:20251129T181000Z
-UID:9d7747490952ad3e799cbefdf9b457b8
-DESCRIPTION:Springboks\n\nCompetition: Castle Lager Outgoing Tour\nRound: 
- Round 5\nOpponent: Wales\nVenue: Principality Stadium\, Cardiff
-LOCATION:Principality Stadium\, Cardiff
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs Barbarians\nFriendlies
 DTSTART:20260620T130000Z
 DTEND:20260620T160000Z
 UID:9356b8eea4d0a9c5e3772f5fbd226ed6
@@ -228,27 +93,27 @@ LOCATION:Optus Stadium\, Perth
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🏉 Italy vs Springboks\nNations Championship
-DTSTART:20261107T100000Z
-DTEND:20261107T130000Z
-UID:b6da273baa0b634aaff05e03c10e3189
+DTSTART:20261107T114000Z
+DTEND:20261107T144000Z
+UID:29c2f4724c098f72e03516e1598d0142
 DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round 
- 4\nOpponent: Italy\nVenue: Venue TBD
-LOCATION:Venue TBD
+ 4\nOpponent: Italy\nVenue: Allianz Stadium\, Turin
+LOCATION:Allianz Stadium\, Turin
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🏉 France vs Springboks\nNations Championship
-DTSTART:20261113T100000Z
-DTEND:20261113T130000Z
-UID:85ef66b488c61bdad37e91535aa96ea6
+DTSTART:20261113T201000Z
+DTEND:20261113T231000Z
+UID:a415e93c2909ffdabe9dbaf614c4926d
 DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round 
  5\nOpponent: France\nVenue: Stade de France\, Saint-Denis
 LOCATION:Stade de France\, Saint-Denis
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🏉 Ireland vs Springboks\nNations Championship
-DTSTART:20261121T100000Z
-DTEND:20261121T130000Z
-UID:a8a584372d095efc303bb6b02c07ded7
+DTSTART:20261121T164000Z
+DTEND:20261121T194000Z
+UID:86b5cd9a0d674a670d6bf5b2425c1910
 DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round 
  6\nOpponent: Ireland\nVenue: Aviva Stadium\, Dublin
 LOCATION:Aviva Stadium\, Dublin
