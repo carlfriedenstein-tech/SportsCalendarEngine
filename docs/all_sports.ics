@@ -818,18 +818,18 @@ DESCRIPTION:Semi-final
 LOCATION:Atlanta Stadium\, Atlanta
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ RU101 vs RU102
+SUMMARY:⚽ France vs RU102
 DTSTART:20260718T210000Z
 DTEND:20260718T230000Z
-UID:0576ebe94125234c6e51ade445396706
-DESCRIPTION:Play-off for third place
+UID:151b2cb97a6d858753c37af0ed616ca0
+DESCRIPTION:Bronze final
 LOCATION:Miami Stadium\, Miami
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ W101 vs W102
+SUMMARY:⚽ Spain vs W102
 DTSTART:20260719T190000Z
 DTEND:20260719T210000Z
-UID:61f45d89c7ce781ba256a8cb772e4b3a
+UID:88fadd8af68f44b2057951182c0f70cc
 DESCRIPTION:Final
 LOCATION:New York/New Jersey Stadium\, New Jersey
 END:VEVENT
@@ -1731,6 +1731,73 @@ DTEND:20261018T143000Z
 UID:62fa1906ab1d6c8ff741ebb034761fdd
 DESCRIPTION:WorldSBK\n\nSession: Race 2\nCircuit: Jerez\nCountry: ESP
 LOCATION:Jerez
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n1st ODI
+DTSTART:20260924T100000
+DTEND:20260924T180000
+UID:f9b4bd67f0f68e984682848c5fb01bf5
+DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa - 1st ODI\nV
+ enue: Hollywoodbets Kingsmead Stadium\, Durban\nDate: 24/09/26\nTime: 10:0
+ 0
+LOCATION:Hollywoodbets Kingsmead Stadium\, Durban
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n2nd ODI
+DTSTART:20260927T100000
+DTEND:20260927T180000
+UID:0f1fe380f3800af285009d1b0f69cfc1
+DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa - 2nd ODI\nV
+ enue: DP World Wanderers Stadium\, Johannesburg\nDate: 27/09/26\nTime: 10:
+ 00
+LOCATION:DP World Wanderers Stadium\, Johannesburg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n1st Test
+DTSTART:20261009T093000
+DTEND:20261014T093000
+UID:d2195f9d6b78ede90e4b8ab65dfdcfbe
+DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa – 1st Test
+ \nVenue: Hollywoodbets Kingsmead Stadium\, Durban\nDate: 09/10/26\nTime: 0
+ 9:30
+LOCATION:Hollywoodbets Kingsmead Stadium\, Durban
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n2nd Test
+DTSTART:20261018T100000
+DTEND:20261023T100000
+UID:fd4f76a6809d6fc09d9722a975098225
+DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa – 2nd Test
+ \nVenue: Dafabet St George's Park\, Gqeberha\nDate: 18/10/26\nTime: 10:00
+LOCATION:Dafabet St George's Park\, Gqeberha
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n3rd ODI
+DTSTART:20261027T133000
+DTEND:20261027T213000
+UID:0c8f9d0de603c2b25ca7c2fbd2a9df24
+DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa - 3rd ODI\nV
+ enue: JB Marks Oval\, Potchefstroom\nDate: 27/10/26\nTime: 13:30
+LOCATION:JB Marks Oval\, Potchefstroom
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n3rd Test
+DTSTART:20261031T103000
+DTEND:20261105T103000
+UID:80e969750e8a791e80c279e146dfbdbc
+DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa – 3rd Test
+ \nVenue: WSB Newlands Cricket Ground\, Cape Town\nDate: 31/10/26\nTime: 10
+ :30
+LOCATION:WSB Newlands Cricket Ground\, Cape Town
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏏 Proteas\nSouth Africa vs Bangladesh\n1st Test
+DTSTART:20261115T100000
+DTEND:20261120T100000
+UID:d38c2fa0b2e5addde0a9afae2d13bf05
+DESCRIPTION:Proteas\n\nSeries: Bangladesh Men's 1st Test\nVenue: DP World 
+ Wanderers Stadium\, Johannesburg\nDate: 15/11/26\nTime: 10:00
+LOCATION:DP World Wanderers Stadium\, Johannesburg
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🏉 Springboks vs Barbarians\nFriendlies
