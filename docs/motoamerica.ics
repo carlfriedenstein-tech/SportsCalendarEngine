@@ -51,9 +51,8 @@ SUMMARY:🏍️ MotoAmerica - Laguna Seca
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260713
 UID:53fb7ae236e2d478d23eb1a35ad44691
-DESCRIPTION:MotoAmerica Race Weekend\n\nClasses Racing:\n• Super Hooliga
- n\n• Talent Cup\n• Supersport\n• Superbike\n• King of the Baggers\
- n\nOfficial Event Page:\nhttps://motoamerica.com/laguna-seca
+DESCRIPTION:MotoAmerica Race Weekend\n\nOfficial Event Page:\nhttps://moto
+ america.com/laguna-seca
 LOCATION:WeatherTech Raceway Laguna Seca\, CA
 END:VEVENT
 BEGIN:VEVENT
@@ -61,8 +60,53 @@ SUMMARY:🏍️ MotoAmerica - Mid-Ohio
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260803
 UID:ea6bf38f67708cc18b38f720c77c09fc
-DESCRIPTION:MotoAmerica Race Weekend\n\nOfficial Event Page:\nhttps://moto
- america.com/mid-ohio
+DESCRIPTION:MotoAmerica Race Weekend\n\nClasses Racing:\n• Super Hooliga
+ n\n• Supersport\n• Superbike\n• King of the Baggers\n\nOfficial Even
+ t Page:\nhttps://motoamerica.com/mid-ohio
+LOCATION:Mid-Ohio Sports Car Course\, OH
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ MotoAmerica Supersport Race 1
+DTSTART:20260801T202000Z
+DTEND:20260801T212000Z
+UID:f66a1349e57621d94e75ff3ef0fc4126
+DESCRIPTION:MotoAmerica Superbikes at Mid-Ohio\n\nOfficial Schedule Entry:
+ \n1:20 PM – Supersport – Race 1 (18 laps)\n\nOfficial Event Page:\nhtt
+ ps://motoamerica.com/mid-ohio\n\nOfficial MotoAmerica Schedule:\nhttps://w
+ ww.motoamerica.com/event/
+LOCATION:Mid-Ohio Sports Car Course\, OH
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ MotoAmerica Superbike Race 1
+DTSTART:20260801T221200Z
+DTEND:20260801T231200Z
+UID:544d46978cb0fa5c2eac01de1a1ac0dc
+DESCRIPTION:MotoAmerica Superbikes at Mid-Ohio\n\nOfficial Schedule Entry:
+ \n3:12 PM – Quad Lock Superbike – Race 1 (19 laps)\n\nOfficial Event P
+ age:\nhttps://motoamerica.com/mid-ohio\n\nOfficial MotoAmerica Schedule:\n
+ https://www.motoamerica.com/event/
+LOCATION:Mid-Ohio Sports Car Course\, OH
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ MotoAmerica Supersport Race 2
+DTSTART:20260802T202000Z
+DTEND:20260802T212000Z
+UID:500ed795fc4fb14ddea01e9c93d528d2
+DESCRIPTION:MotoAmerica Superbikes at Mid-Ohio\n\nOfficial Schedule Entry:
+ \n1:20 PM – Supersport – Race 2 (18 laps)\n\nOfficial Event Page:\nhtt
+ ps://motoamerica.com/mid-ohio\n\nOfficial MotoAmerica Schedule:\nhttps://w
+ ww.motoamerica.com/event/
+LOCATION:Mid-Ohio Sports Car Course\, OH
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ MotoAmerica Superbike Race 2
+DTSTART:20260802T221200Z
+DTEND:20260802T231200Z
+UID:3892116834f3ee11a1d91c777c6c3820
+DESCRIPTION:MotoAmerica Superbikes at Mid-Ohio\n\nOfficial Schedule Entry:
+ \n3:12 PM – Quad Lock Superbike – Race 2 (19 laps)\n\nOfficial Event P
+ age:\nhttps://motoamerica.com/mid-ohio\n\nOfficial MotoAmerica Schedule:\n
+ https://www.motoamerica.com/event/
 LOCATION:Mid-Ohio Sports Car Course\, OH
 END:VEVENT
 BEGIN:VEVENT
@@ -91,49 +135,5 @@ UID:774e9b95bc78eb4836a12aca638af080
 DESCRIPTION:MotoAmerica Race Weekend\n\nOfficial Event Page:\nhttps://moto
  america.com/new-jersey
 LOCATION:New Jersey Motorsports Park\, NJ
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏍️ MotoAmerica Supersport Race 1
-DTSTART:20260711T201000Z
-DTEND:20260711T211000Z
-UID:56ab2af63dbddc417563beccc626ed99
-DESCRIPTION:MotoAmerica Superbike Speedfest at Monterey Presented By Law T
- igers\n\nOfficial Schedule Entry:\n1:10 PM – Supersport – Race 1 (17 l
- aps)\n\nOfficial Event Page:\nhttps://motoamerica.com/laguna-seca\n\nOffic
- ial MotoAmerica Schedule:\nhttps://www.motoamerica.com/event/
-LOCATION:WeatherTech Raceway Laguna Seca\, CA
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏍️ MotoAmerica Superbike Race 1
-DTSTART:20260711T221200Z
-DTEND:20260711T231200Z
-UID:0958b0e2cc5224d9bbf20cdc66932c7d
-DESCRIPTION:MotoAmerica Superbike Speedfest at Monterey Presented By Law T
- igers\n\nOfficial Schedule Entry:\n3:12 PM – Quad Lock Superbike – Rac
- e 1 (20 laps)\n\nOfficial Event Page:\nhttps://motoamerica.com/laguna-seca
- \n\nOfficial MotoAmerica Schedule:\nhttps://www.motoamerica.com/event/
-LOCATION:WeatherTech Raceway Laguna Seca\, CA
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏍️ MotoAmerica Supersport Race 2
-DTSTART:20260712T201000Z
-DTEND:20260712T211000Z
-UID:9c91351fe6f26d40173856fbb7286c97
-DESCRIPTION:MotoAmerica Superbike Speedfest at Monterey Presented By Law T
- igers\n\nOfficial Schedule Entry:\n1:10 PM – Supersport – Race 2 (19 l
- aps)\n\nOfficial Event Page:\nhttps://motoamerica.com/laguna-seca\n\nOffic
- ial MotoAmerica Schedule:\nhttps://www.motoamerica.com/event/
-LOCATION:WeatherTech Raceway Laguna Seca\, CA
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏍️ MotoAmerica Superbike Race 2
-DTSTART:20260712T221200Z
-DTEND:20260712T231200Z
-UID:73b0be88b94148702c852edb0ba9b54c
-DESCRIPTION:MotoAmerica Superbike Speedfest at Monterey Presented By Law T
- igers\n\nOfficial Schedule Entry:\n3:12 PM – Quad Lock Superbike – Rac
- e 2 (20 laps)\n\nOfficial Event Page:\nhttps://motoamerica.com/laguna-seca
- \n\nOfficial MotoAmerica Schedule:\nhttps://www.motoamerica.com/event/
-LOCATION:WeatherTech Raceway Laguna Seca\, CA
 END:VEVENT
 END:VCALENDAR
