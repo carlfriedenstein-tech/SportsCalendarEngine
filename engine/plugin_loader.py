@@ -6,6 +6,7 @@ from plugins.worldsbk import WorldSBKPlugin
 from plugins.proteas import ProteasPlugin
 from plugins.springboks import SpringboksPlugin
 from plugins.motoamerica import MotoAmericaPlugin
+from plugins.snooker import SnookerPlugin
 
 
 class PluginLoader:
@@ -26,6 +27,7 @@ class PluginLoader:
 
             MotoAmericaPlugin(),
 
+            SnookerPlugin(),
         ]
 
         plugin_names = set()

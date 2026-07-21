@@ -1,0 +1,219 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sports Calendar Engine//
+BEGIN:VEVENT
+SUMMARY:🎱 Snooker - Championship League
+DTSTART;VALUE=DATE:20260622
+DTEND;VALUE=DATE:20260716
+UID:badb3a926276d2ae726a9b28d084ec27
+DESCRIPTION:Snooker Tournament\n\nTournament: Championship League\nType: R
+ anking\nVenue: Mattioli Arena\, Leicester\, England\nTour: main\n\nData So
+ urce:\nSnooker.org
+LOCATION:Mattioli Arena\, Leicester\, England
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Snooker - Shanghai Masters
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260803
+UID:c2e59344491ec5304463dfd8d6a0298d
+DESCRIPTION:Snooker Tournament\n\nTournament: Shanghai Masters\nType: Invi
+ tational\nVenue: Shanghai\, China\nTour: main\n\nData Source:\nSnooker.org
+LOCATION:Shanghai\, China
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Mark J Williams vs Player 376
+DTSTART:20260728T060000Z
+DTEND:20260728T090000Z
+UID:c94098509d5a5df72af76878fdc6ed69
+DESCRIPTION:Snooker Match\n\nMark J Williams vs Player 376\n\nTournament: 
+ Shanghai Masters\nRound: 8\nMatch Number: 2\n\nData Source:\nSnooker.org
+LOCATION:Shanghai\, China
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Snooker - China Open
+DTSTART;VALUE=DATE:20260808
+DTEND;VALUE=DATE:20260817
+UID:ea2a6d6c8d5a5062400696acb0834aca
+DESCRIPTION:Snooker Tournament\n\nTournament: China Open\nType: Ranking\nV
+ enue: Taiyuan\, China\nTour: main\n\nData Source:\nSnooker.org
+LOCATION:Taiyuan\, China
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Snooker - Wuhan Open
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260830
+UID:4f51d8a4183ca96d4c705a54c8cf6390
+DESCRIPTION:Snooker Tournament\n\nTournament: Wuhan Open\nType: Ranking\nV
+ enue: Wuhan\, China\nTour: main\n\nData Source:\nSnooker.org
+LOCATION:Wuhan\, China
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Snooker - British Open
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260907
+UID:e287136d005542269331f288374e44c3
+DESCRIPTION:Snooker Tournament\n\nTournament: British Open\nType: Ranking\
+ nVenue: The Centaur\, Cheltenham\, England\nTour: main\n\nData Source:\nSn
+ ooker.org
+LOCATION:The Centaur\, Cheltenham\, England
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Snooker - English Open
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260914
+UID:23afcf6693a384b307b68d68a01a5c78
+DESCRIPTION:Snooker Tournament\n\nTournament: English Open\nType: Ranking\
+ nVenue: Brentwood Leisure Centre\, Brentwood\, England\nTour: main\n\nData
+  Source:\nSnooker.org
+LOCATION:Brentwood Leisure Centre\, Brentwood\, England
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Snooker - Shenzhen Open
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20261005
+UID:c90bb50b0e883912dc8a1dde5541f0b3
+DESCRIPTION:Snooker Tournament\n\nTournament: Shenzhen Open\nType: Ranking
+ \nVenue: Shenzhen\, China\nTour: main\n\nData Source:\nSnooker.org
+LOCATION:Shenzhen\, China
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Snooker - Northern Ireland Open
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261026
+UID:abf04cad034593612882b7d4916f417e
+DESCRIPTION:Snooker Tournament\n\nTournament: Northern Ireland Open\nType:
+  Ranking\nVenue: Waterfront Hall\, Belfast\, Northern Ireland\nTour: main\
+ n\nData Source:\nSnooker.org
+LOCATION:Waterfront Hall\, Belfast\, Northern Ireland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Snooker - International Championship
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261108
+UID:a535a1d2593a4808dd13a0b83a60b5ce
+DESCRIPTION:Snooker Tournament\n\nTournament: International Championship\n
+ Type: Ranking\nVenue: Nanjing\, China\nTour: main\n\nData Source:\nSnooker
+ .org
+LOCATION:Nanjing\, China
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Snooker - Champion of Champions
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261116
+UID:7ed2a0ef5fc3df6407ee521415d34204
+DESCRIPTION:Snooker Tournament\n\nTournament: Champion of Champions\nType:
+  Invitational\nVenue: Mattioli Arena\, Leicester\, England\nTour: main\n\n
+ Data Source:\nSnooker.org
+LOCATION:Mattioli Arena\, Leicester\, England
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Snooker - UK Championship
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261207
+UID:cb5d42e18544a79af3ac48101e682f6b
+DESCRIPTION:Snooker Tournament\n\nTournament: UK Championship\nType: Ranki
+ ng\nVenue: Barbican Centre\, York\, England\nTour: main\n\nData Source:\nS
+ nooker.org
+LOCATION:Barbican Centre\, York\, England
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Snooker - Shoot Out
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261213
+UID:6808aecedf17f8312a4b688d6c5a0076
+DESCRIPTION:Snooker Tournament\n\nTournament: Shoot Out\nType: Ranking\nVe
+ nue: Tower Circus\, Blackpool\, England\nTour: main\n\nData Source:\nSnook
+ er.org
+LOCATION:Tower Circus\, Blackpool\, England
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Snooker - Scottish Open
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261221
+UID:64fa42083276adbd3884e81d38cc8341
+DESCRIPTION:Snooker Tournament\n\nTournament: Scottish Open\nType: Ranking
+ \nVenue: Meadowbank Sports Centre\, Edinburgh\, Scotland\nTour: main\n\nDa
+ ta Source:\nSnooker.org
+LOCATION:Meadowbank Sports Centre\, Edinburgh\, Scotland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Snooker - Masters
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270118
+UID:f5a5bc0f35ee11f29ccbd7852fa1f9ff
+DESCRIPTION:Snooker Tournament\n\nTournament: Masters\nType: Invitational\
+ nVenue: Alexandra Palace\, London\, England\nTour: main\n\nData Source:\nS
+ nooker.org
+LOCATION:Alexandra Palace\, London\, England
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Snooker - German Masters
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270201
+UID:decfde69fcecb867433793bd8abd8f8b
+DESCRIPTION:Snooker Tournament\n\nTournament: German Masters\nType: Rankin
+ g\nVenue: Tempodrom\, Berlin\, Germany\nTour: main\n\nData Source:\nSnooke
+ r.org
+LOCATION:Tempodrom\, Berlin\, Germany
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Snooker - Welsh Open
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270215
+UID:32a3947ede736bb7b67e665d3134abb1
+DESCRIPTION:Snooker Tournament\n\nTournament: Welsh Open\nType: Ranking\nV
+ enue: Venue Cymru\, Llandudno\, Wales\nTour: main\n\nData Source:\nSnooker
+ .org
+LOCATION:Venue Cymru\, Llandudno\, Wales
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Snooker - World Grand Prix
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270222
+UID:89b1abbdd11d0377f84c0600e5fdc90f
+DESCRIPTION:Snooker Tournament\n\nTournament: World Grand Prix\nType: Rank
+ ing\nVenue: Kai Tak Arena\, Hong Kong\nTour: main\n\nData Source:\nSnooker
+ .org
+LOCATION:Kai Tak Arena\, Hong Kong
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Snooker - Players Championship
+DTSTART;VALUE=DATE:20270302
+DTEND;VALUE=DATE:20270308
+UID:a25a59769028646c934700832cadc441
+DESCRIPTION:Snooker Tournament\n\nTournament: Players Championship\nType: 
+ Ranking\nVenue: Telford International Centre\, Telford\, England\nTour: ma
+ in\n\nData Source:\nSnooker.org
+LOCATION:Telford International Centre\, Telford\, England
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Snooker - World Open
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270322
+UID:f3ce6b4b350a225fd3942fcc07ce356a
+DESCRIPTION:Snooker Tournament\n\nTournament: World Open\nType: Ranking\nV
+ enue: Yushan Sport Centre\, Yushan\, China\nTour: main\n\nData Source:\nSn
+ ooker.org
+LOCATION:Yushan Sport Centre\, Yushan\, China
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Snooker - Tour Championship
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270405
+UID:c184a98f6316aa4fc499bf1795f58272
+DESCRIPTION:Snooker Tournament\n\nTournament: Tour Championship\nType: Ran
+ king\nVenue: Manchester Central\, Manchester\, England\nTour: main\n\nData
+  Source:\nSnooker.org
+LOCATION:Manchester Central\, Manchester\, England
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Snooker - World Championship
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270504
+UID:a9f8a09eeded34f454aa918fc678c62d
+DESCRIPTION:Snooker Tournament\n\nTournament: World Championship\nType: Ra
+ nking\nVenue: Crucible Theatre\, Sheffield\, England\nTour: main\n\nData S
+ ource:\nSnooker.org
+LOCATION:Crucible Theatre\, Sheffield\, England
+END:VEVENT
+END:VCALENDAR
