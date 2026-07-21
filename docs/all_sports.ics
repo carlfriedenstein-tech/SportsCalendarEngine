@@ -1753,6 +1753,15 @@ DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa - 2nd ODI\nV
 LOCATION:DP World Wanderers Stadium\, Johannesburg
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n3rd ODI
+DTSTART:20260930T133000
+DTEND:20260930T213000
+UID:9182b1dd8e13e4ad0c2bcc557fb76237
+DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa - 3rd ODI\nV
+ enue: JB Marks Oval\, Potchefstroom\nDate: 30/09/26\nTime: 13:30
+LOCATION:JB Marks Oval\, Potchefstroom
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n1st Test
 DTSTART:20261009T093000
 DTEND:20261014T093000
@@ -1770,15 +1779,6 @@ UID:fd4f76a6809d6fc09d9722a975098225
 DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa – 2nd Test
  \nVenue: Dafabet St George's Park\, Gqeberha\nDate: 18/10/26\nTime: 10:00
 LOCATION:Dafabet St George's Park\, Gqeberha
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n3rd ODI
-DTSTART:20261027T133000
-DTEND:20261027T213000
-UID:0c8f9d0de603c2b25ca7c2fbd2a9df24
-DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa - 3rd ODI\nV
- enue: JB Marks Oval\, Potchefstroom\nDate: 27/10/26\nTime: 13:30
-LOCATION:JB Marks Oval\, Potchefstroom
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n3rd Test
