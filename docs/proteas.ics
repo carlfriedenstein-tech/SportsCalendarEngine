@@ -49,23 +49,4 @@ DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa – 2nd Test
  \nVenue: Dafabet St George's Park\, Gqeberha\nDate: 18/10/26\nTime: 10:00
 LOCATION:Dafabet St George's Park\, Gqeberha
 END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n3rd Test
-DTSTART:20261031T103000
-DTEND:20261105T103000
-UID:80e969750e8a791e80c279e146dfbdbc
-DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa – 3rd Test
- \nVenue: WSB Newlands Cricket Ground\, Cape Town\nDate: 31/10/26\nTime: 10
- :30
-LOCATION:WSB Newlands Cricket Ground\, Cape Town
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏏 Proteas\nSouth Africa vs Bangladesh\n1st Test
-DTSTART:20261115T100000
-DTEND:20261120T100000
-UID:d38c2fa0b2e5addde0a9afae2d13bf05
-DESCRIPTION:Proteas\n\nSeries: Bangladesh Men's 1st Test\nVenue: DP World 
- Wanderers Stadium\, Johannesburg\nDate: 15/11/26\nTime: 10:00
-LOCATION:DP World Wanderers Stadium\, Johannesburg
-END:VEVENT
 END:VCALENDAR

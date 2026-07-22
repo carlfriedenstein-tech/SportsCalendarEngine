@@ -21,12 +21,12 @@ DESCRIPTION:Snooker Tournament\n\nTournament: Shanghai Masters\nType: Invi
 LOCATION:Shanghai\, China
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🎱 Mark J Williams vs Player 376
-DTSTART:20260728T060000Z
-DTEND:20260728T090000Z
-UID:c94098509d5a5df72af76878fdc6ed69
-DESCRIPTION:Snooker Match\n\nMark J Williams vs Player 376\n\nTournament: 
- Shanghai Masters\nRound: 8\nMatch Number: 2\n\nData Source:\nSnooker.org
+SUMMARY:🎱 Judd Trump vs Player 376
+DTSTART:20260728T113000Z
+DTEND:20260728T143000Z
+UID:c7745e507ee0cc8984bfaf91ad1277a7
+DESCRIPTION:Snooker Match\n\nJudd Trump vs Player 376\n\nTournament: Shang
+ hai Masters\nRound: 8\nMatch Number: 5\n\nData Source:\nSnooker.org
 LOCATION:Shanghai\, China
 END:VEVENT
 BEGIN:VEVENT
@@ -36,6 +36,15 @@ DTEND;VALUE=DATE:20260817
 UID:ea2a6d6c8d5a5062400696acb0834aca
 DESCRIPTION:Snooker Tournament\n\nTournament: China Open\nType: Ranking\nV
  enue: Taiyuan\, China\nTour: main\n\nData Source:\nSnooker.org
+LOCATION:Taiyuan\, China
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Judd Trump vs Noppon Saengkham
+DTSTART:20260809T060000Z
+DTEND:20260809T090000Z
+UID:b6de810dbf9922600435e9fb5a85eeba
+DESCRIPTION:Snooker Match\n\nJudd Trump vs Noppon Saengkham\n\nTournament:
+  China Open\nRound: 7\nMatch Number: 9\n\nData Source:\nSnooker.org
 LOCATION:Taiyuan\, China
 END:VEVENT
 BEGIN:VEVENT
@@ -65,6 +74,15 @@ UID:23afcf6693a384b307b68d68a01a5c78
 DESCRIPTION:Snooker Tournament\n\nTournament: English Open\nType: Ranking\
  nVenue: Brentwood Leisure Centre\, Brentwood\, England\nTour: main\n\nData
   Source:\nSnooker.org
+LOCATION:Brentwood Leisure Centre\, Brentwood\, England
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Judd Trump vs Player 376
+DTSTART:20260908T180000Z
+DTEND:20260908T210000Z
+UID:6df7e208965a0fec2fd6859a78f4cccf
+DESCRIPTION:Snooker Match\n\nJudd Trump vs Player 376\n\nTournament: Engli
+ sh Open\nRound: 7\nMatch Number: 17\n\nData Source:\nSnooker.org
 LOCATION:Brentwood Leisure Centre\, Brentwood\, England
 END:VEVENT
 BEGIN:VEVENT

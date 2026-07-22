@@ -9,17 +9,30 @@ class CacheManager:
     # INITIALIZE
     # ---------------------------------------------------------
 
-    def __init__(self):
+    def __init__(
+        self,
+        sport,
+    ):
 
-        self.cache_dir = Path("cache")
-        self.cache_dir.mkdir(exist_ok=True)
+        self.sport = sport
+
+        self.cache_dir = (
+            Path("cache")
+            / sport
+        )
+
+        self.cache_dir.mkdir(
+            parents=True,
+            exist_ok=True,
+        )
 
         self.matches_dir = (
-            self.cache_dir / "matches"
+            self.cache_dir
+            / "matches"
         )
 
         self.matches_dir.mkdir(
-            exist_ok=True
+            exist_ok=True,
         )
 
     # ---------------------------------------------------------
@@ -120,31 +133,31 @@ class CacheManager:
         ) > max_age
 
     # ---------------------------------------------------------
-    # REFRESH RULES
+    # CACHE EXPIRATION
     # ---------------------------------------------------------
 
-    def events_expired(self):
-
-        return self.is_expired(
-            self.events_file(),
-            timedelta(days=7),
-        )
-
-    def players_expired(self):
-
-        return self.is_expired(
-            self.players_file(),
-            timedelta(days=30),
-        )
-
-    def matches_expired(
+    def cache_expired(
         self,
-        event_id,
+        file_path,
+        refresh_after,
     ):
 
         return self.is_expired(
-            self.matches_file(
-                event_id
-            ),
-            timedelta(hours=6),
+            file_path,
+            refresh_after,
         )
+
+    # ---------------------------------------------------------
+    # DELETE CACHE
+    # ---------------------------------------------------------
+
+    def delete_file(
+        self,
+        file_path,
+    ):
+
+        file_path = Path(file_path)
+
+        if file_path.exists():
+
+            file_path.unlink()
