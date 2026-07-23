@@ -39,7 +39,15 @@ class CalendarWriter:
             filename
         )
 
-        with open(output_file, "wb") as f:
-            f.write(cal.to_ical())
+        calendar_data = cal.to_ical()
 
-        print(f"  Wrote {output_file}")
+        if os.path.exists(output_file):
+            with open(output_file, "rb") as f:
+                if f.read() == calendar_data:
+                    print(f"  No changes: {output_file}")
+                    return
+
+        with open(output_file, "wb") as f:
+            f.write(calendar_data)
+
+        print(f"  Updated: {output_file}")
