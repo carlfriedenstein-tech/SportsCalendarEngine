@@ -21,12 +21,49 @@ DESCRIPTION:Snooker Tournament\n\nTournament: Shanghai Masters\nType: Invi
 LOCATION:Shanghai\, China
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎱 Ronnie O'Sullivan vs Player 2286
+DTSTART:20260727T113000Z
+DTEND:20260727T143000Z
+UID:5d0001596249078fa8f8d304d43c334d
+DESCRIPTION:Snooker Match\n\nRonnie O'Sullivan vs Player 2286\n\nTournamen
+ t: Shanghai Masters\nRound: 7\nMatch Number: 1\n\nData Source:\nSnooker.or
+ g
+LOCATION:Shanghai\, China
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Jack Lisowski vs Anda Zhang
+DTSTART:20260728T013000Z
+DTEND:20260728T043000Z
+UID:bd7fd9049896cbc9bd59f1273270b14a
+DESCRIPTION:Snooker Match\n\nJack Lisowski vs Anda Zhang\n\nTournament: Sh
+ anghai Masters\nRound: 7\nMatch Number: 6\n\nData Source:\nSnooker.org
+LOCATION:Shanghai\, China
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Neil Robertson vs Player 376
+DTSTART:20260728T060000Z
+DTEND:20260728T090000Z
+UID:300d606e71ae589bd3f37e170da5ed5b
+DESCRIPTION:Snooker Match\n\nNeil Robertson vs Player 376\n\nTournament: S
+ hanghai Masters\nRound: 8\nMatch Number: 4\n\nData Source:\nSnooker.org
+LOCATION:Shanghai\, China
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎱 Judd Trump vs Player 376
 DTSTART:20260728T113000Z
 DTEND:20260728T143000Z
 UID:c7745e507ee0cc8984bfaf91ad1277a7
 DESCRIPTION:Snooker Match\n\nJudd Trump vs Player 376\n\nTournament: Shang
  hai Masters\nRound: 8\nMatch Number: 5\n\nData Source:\nSnooker.org
+LOCATION:Shanghai\, China
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Shaun Murphy vs Player 376
+DTSTART:20260729T060000Z
+DTEND:20260729T090000Z
+UID:cc73b2d9d15fe5a2a154110ce36f5fec
+DESCRIPTION:Snooker Match\n\nShaun Murphy vs Player 376\n\nTournament: Sha
+ nghai Masters\nRound: 8\nMatch Number: 7\n\nData Source:\nSnooker.org
 LOCATION:Shanghai\, China
 END:VEVENT
 BEGIN:VEVENT
@@ -45,6 +82,33 @@ DTEND:20260809T090000Z
 UID:b6de810dbf9922600435e9fb5a85eeba
 DESCRIPTION:Snooker Match\n\nJudd Trump vs Noppon Saengkham\n\nTournament:
   China Open\nRound: 7\nMatch Number: 9\n\nData Source:\nSnooker.org
+LOCATION:Taiyuan\, China
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Ronnie O'Sullivan vs Jackson Page
+DTSTART:20260809T113000Z
+DTEND:20260809T143000Z
+UID:811b9aed82ce6bd10255ad2e09144777
+DESCRIPTION:Snooker Match\n\nRonnie O'Sullivan vs Jackson Page\n\nTourname
+ nt: China Open\nRound: 7\nMatch Number: 10\n\nData Source:\nSnooker.org
+LOCATION:Taiyuan\, China
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Shaun Murphy vs Matthew Selt
+DTSTART:20260809T113000Z
+DTEND:20260809T143000Z
+UID:9539fe196216fc2573172a9cbcad1011
+DESCRIPTION:Snooker Match\n\nShaun Murphy vs Matthew Selt\n\nTournament: C
+ hina Open\nRound: 7\nMatch Number: 12\n\nData Source:\nSnooker.org
+LOCATION:Taiyuan\, China
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Neil Robertson vs Bingyu Chang
+DTSTART:20260810T060000Z
+DTEND:20260810T090000Z
+UID:c8730d077ee2629f71ca8ccd2615ca9c
+DESCRIPTION:Snooker Match\n\nNeil Robertson vs Bingyu Chang\n\nTournament:
+  China Open\nRound: 7\nMatch Number: 1\n\nData Source:\nSnooker.org
 LOCATION:Taiyuan\, China
 END:VEVENT
 BEGIN:VEVENT
@@ -77,12 +141,50 @@ DESCRIPTION:Snooker Tournament\n\nTournament: English Open\nType: Ranking\
 LOCATION:Brentwood Leisure Centre\, Brentwood\, England
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🎱 Neil Robertson vs Player 376
+DTSTART:20260907T120000Z
+DTEND:20260907T150000Z
+UID:ec3e998224194a4f671b3fb65323e164
+DESCRIPTION:Snooker Match\n\nNeil Robertson vs Player 376\n\nTournament: E
+ nglish Open\nRound: 7\nMatch Number: 16\n\nData Source:\nSnooker.org
+LOCATION:Brentwood Leisure Centre\, Brentwood\, England
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Jack Lisowski vs Player 376
+DTSTART:20260908T120000Z
+DTEND:20260908T150000Z
+UID:375bec07390caa2be69ed11097918161
+DESCRIPTION:Snooker Match\n\nJack Lisowski vs Player 376\n\nTournament: En
+ glish Open\nRound: 7\nMatch Number: 19\n\nData Source:\nSnooker.org
+LOCATION:Brentwood Leisure Centre\, Brentwood\, England
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Ronnie O'Sullivan vs Player 376
+DTSTART:20260908T140000Z
+DTEND:20260908T170000Z
+UID:70f24bf55981e31cac41d5b62dd3afe4
+DESCRIPTION:Snooker Match\n\nRonnie O'Sullivan vs Player 376\n\nTournament
+ : English Open\nRound: 7\nMatch Number: 30\n\nScheduled time is estimated.
+ \n\nData Source:\nSnooker.org
+LOCATION:Brentwood Leisure Centre\, Brentwood\, England
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🎱 Judd Trump vs Player 376
 DTSTART:20260908T180000Z
 DTEND:20260908T210000Z
 UID:6df7e208965a0fec2fd6859a78f4cccf
 DESCRIPTION:Snooker Match\n\nJudd Trump vs Player 376\n\nTournament: Engli
  sh Open\nRound: 7\nMatch Number: 17\n\nData Source:\nSnooker.org
+LOCATION:Brentwood Leisure Centre\, Brentwood\, England
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎱 Shaun Murphy vs Player 376
+DTSTART:20260908T200000Z
+DTEND:20260908T230000Z
+UID:dde9f786a378e3730d1e3a120e17a32d
+DESCRIPTION:Snooker Match\n\nShaun Murphy vs Player 376\n\nTournament: Eng
+ lish Open\nRound: 7\nMatch Number: 24\n\nScheduled time is estimated.\n\nD
+ ata Source:\nSnooker.org
 LOCATION:Brentwood Leisure Centre\, Brentwood\, England
 END:VEVENT
 BEGIN:VEVENT

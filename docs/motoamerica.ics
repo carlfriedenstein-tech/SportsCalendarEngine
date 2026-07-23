@@ -66,33 +66,6 @@ DESCRIPTION:MotoAmerica Race Weekend\n\nClasses Racing:\n• Super Hooliga
 LOCATION:Mid-Ohio Sports Car Course\, OH
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏍️ MotoAmerica - VIR
-DTSTART;VALUE=DATE:20260814
-DTEND;VALUE=DATE:20260817
-UID:51fb1e10d1f5de1041e128768408660b
-DESCRIPTION:MotoAmerica Race Weekend\n\nOfficial Event Page:\nhttps://moto
- america.com/virginia
-LOCATION:Virginia Int'l Raceway\, VA
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏍️ MotoAmerica - COTA
-DTSTART;VALUE=DATE:20260911
-DTEND;VALUE=DATE:20260914
-UID:8c88856776157e1721e8cd36cc972b1f
-DESCRIPTION:MotoAmerica Race Weekend\n\nOfficial Event Page:\nhttps://moto
- america.com/cota/
-LOCATION:Circuit of The Americas\, TX
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏍️ MotoAmerica - New Jersey
-DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20260928
-UID:774e9b95bc78eb4836a12aca638af080
-DESCRIPTION:MotoAmerica Race Weekend\n\nOfficial Event Page:\nhttps://moto
- america.com/new-jersey
-LOCATION:New Jersey Motorsports Park\, NJ
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🏍️ MotoAmerica Supersport Race 1
 DTSTART:20260801T202000Z
 DTEND:20260801T212000Z
@@ -135,5 +108,32 @@ DESCRIPTION:MotoAmerica Superbikes at Mid-Ohio\n\nOfficial Schedule Entry:
  age:\nhttps://motoamerica.com/mid-ohio\n\nOfficial MotoAmerica Schedule:\n
  https://www.motoamerica.com/event/
 LOCATION:Mid-Ohio Sports Car Course\, OH
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ MotoAmerica - VIR
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260817
+UID:51fb1e10d1f5de1041e128768408660b
+DESCRIPTION:MotoAmerica Race Weekend\n\nOfficial Event Page:\nhttps://moto
+ america.com/virginia
+LOCATION:Virginia Int'l Raceway\, VA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ MotoAmerica - COTA
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260914
+UID:8c88856776157e1721e8cd36cc972b1f
+DESCRIPTION:MotoAmerica Race Weekend\n\nOfficial Event Page:\nhttps://moto
+ america.com/cota/
+LOCATION:Circuit of The Americas\, TX
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏍️ MotoAmerica - New Jersey
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260928
+UID:774e9b95bc78eb4836a12aca638af080
+DESCRIPTION:MotoAmerica Race Weekend\n\nOfficial Event Page:\nhttps://moto
+ america.com/new-jersey
+LOCATION:New Jersey Motorsports Park\, NJ
 END:VEVENT
 END:VCALENDAR
