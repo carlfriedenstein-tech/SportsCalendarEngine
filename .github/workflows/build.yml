@@ -28,6 +28,15 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Update Repository
+        run: |
+          git pull --rebase origin main
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -43,11 +52,6 @@ jobs:
           set -e
           python main.py
 
-      - name: Configure Git
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
       - name: Publish Updated Calendars
         run: |
           set -e
@@ -59,16 +63,6 @@ jobs:
             exit 0
           fi
 
-          echo "Rebasing onto latest main..."
-          git pull --rebase origin main
-
           git commit -m "Publish latest sports calendars"
 
-          echo "Pushing calendars..."
-
-          if ! git push; then
-            echo "Push failed. Rebasing and retrying once..."
-
-            git pull --rebase origin main
-            git push
-          fi
+          git push
