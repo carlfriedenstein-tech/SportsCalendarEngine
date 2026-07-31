@@ -14,10 +14,10 @@ BEGIN:VEVENT
 SUMMARY:🏉 Springboks vs England\nNations Championship
 DTSTART:20260704T154000Z
 DTEND:20260704T184000Z
-UID:2c121fa333261965b9a60ca7a6a8b137
+UID:2b31939f6202f2e414aedd18803e8ee1
 DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round 
- 1\nOpponent: England\nVenue: Ellis Park\, Johannesburg
-LOCATION:Ellis Park\, Johannesburg
+ 1\nOpponent: England\nVenue: 10bet Ellis Park
+LOCATION:10bet Ellis Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🏉 Springboks vs Scotland\nNations Championship
@@ -50,10 +50,10 @@ BEGIN:VEVENT
 SUMMARY:🏉 Springboks vs New Zealand\nRugby's Greatest Rivalry Tour
 DTSTART:20260822T151000Z
 DTEND:20260822T181000Z
-UID:61ca62a22438754758b76b3390a3479a
+UID:4f0dc5652ad9dace56dfb5e72da2b014
 DESCRIPTION:Springboks\n\nCompetition: Rugby's Greatest Rivalry Tour\nRoun
- d: 1st Test\nOpponent: New Zealand\nVenue: Ellis Park\, Johannesburg
-LOCATION:Ellis Park\, Johannesburg
+ d: 1st Test\nOpponent: New Zealand\nVenue: 10bet Ellis Park
+LOCATION:10bet Ellis Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🏉 Springboks vs New Zealand\nRugby's Greatest Rivalry Tour
