@@ -1658,6 +1658,16 @@ DESCRIPTION:Springboks\n\nCompetition: Castle Double Malt Rugby's Greatest
 LOCATION:M&T Bank Stadium\, Baltimore
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n1st ODI
+DTSTART:20260924T100000
+DTEND:20260924T180000
+UID:f9b4bd67f0f68e984682848c5fb01bf5
+DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa - 1st ODI\nV
+ enue: Hollywoodbets Kingsmead Stadium\, Durban\nDate: 24/09/26\nTime: 10:0
+ 0
+LOCATION:Hollywoodbets Kingsmead Stadium\, Durban
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🏍️ MotoAmerica - New Jersey
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260928
@@ -1701,6 +1711,16 @@ DESCRIPTION:Springboks\n\nCompetition: Internationals\nRound: Round 1\nOpp
 LOCATION:Optus Stadium\, Perth
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n2nd ODI
+DTSTART:20260927T100000
+DTEND:20260927T180000
+UID:0f1fe380f3800af285009d1b0f69cfc1
+DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa - 2nd ODI\nV
+ enue: DP World Wanderers Stadium\, Johannesburg\nDate: 27/09/26\nTime: 10:
+ 00
+LOCATION:DP World Wanderers Stadium\, Johannesburg
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🏍️ WSBK - Cremona - Race 2
 DTSTART:20260927T133000Z
 DTEND:20260927T143000Z
@@ -1716,6 +1736,25 @@ UID:c90bb50b0e883912dc8a1dde5541f0b3
 DESCRIPTION:Snooker Tournament\n\nTournament: Shenzhen Open\nType: Ranking
  \nVenue: Shenzhen\, China\nTour: main\n\nData Source:\nSnooker.org
 LOCATION:Shenzhen\, China
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n3rd ODI
+DTSTART:20260930T133000
+DTEND:20260930T213000
+UID:9182b1dd8e13e4ad0c2bcc557fb76237
+DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa - 3rd ODI\nV
+ enue: JB Marks Oval\, Potchefstroom\nDate: 30/09/26\nTime: 13:30
+LOCATION:JB Marks Oval\, Potchefstroom
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n1st Test
+DTSTART:20261009T093000
+DTEND:20261014T093000
+UID:d2195f9d6b78ede90e4b8ab65dfdcfbe
+DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa – 1st Test
+ \nVenue: Hollywoodbets Kingsmead Stadium\, Durban\nDate: 09/10/26\nTime: 0
+ 9:30
+LOCATION:Hollywoodbets Kingsmead Stadium\, Durban
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🏍️ WSBK - Estoril - Superpole
@@ -1784,6 +1823,15 @@ UID:4b9d2d08f48444ff92d66d05799aee95
 DESCRIPTION:WorldSBK\n\nSession: Superpole Race\nCircuit: Jerez\nCountry: 
  ESP
 LOCATION:Jerez
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n2nd Test
+DTSTART:20261018T100000
+DTEND:20261023T100000
+UID:fd4f76a6809d6fc09d9722a975098225
+DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa – 2nd Test
+ \nVenue: Dafabet St George's Park\, Gqeberha\nDate: 18/10/26\nTime: 10:00
+LOCATION:Dafabet St George's Park\, Gqeberha
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🏍️ WSBK - Jerez - Race 2
