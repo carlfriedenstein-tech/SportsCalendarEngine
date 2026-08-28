@@ -1422,15 +1422,6 @@ DESCRIPTION:MotoAmerica Race Weekend\n\nOfficial Event Page:\nhttps://moto
 LOCATION:Mid-Ohio Sports Car Course\, OH
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏍️ MotoAmerica - MotoAmerica Mission Mini Cup National Final
-DTSTART;VALUE=DATE:20260808
-DTEND;VALUE=DATE:20260810
-UID:744fe4884cc63b6a2533da726e7e2c78
-DESCRIPTION:MotoAmerica Race Weekend\n\nOfficial Event Page:\nhttps://www.
- motoamerica.com/wp-content/Calendar/
-LOCATION:Road America\, WI
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎱 Snooker - China Open
 DTSTART;VALUE=DATE:20260808
 DTEND;VALUE=DATE:20260817
