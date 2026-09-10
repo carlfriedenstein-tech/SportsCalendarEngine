@@ -684,15 +684,6 @@ DESCRIPTION:First Stage - Group D
 LOCATION:San Francisco Bay Area Stadium\, San Francisco Bay Area
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs Barbarians\nFriendlies
-DTSTART:20260620T130000Z
-DTEND:20260620T160000Z
-UID:9356b8eea4d0a9c5e3772f5fbd226ed6
-DESCRIPTION:Springboks\n\nCompetition: Friendlies\nRound: Round 1\nOpponen
- t: Barbarians\nVenue: Nelson Mandela Bay Stadium\, Gqeberha
-LOCATION:Nelson Mandela Bay Stadium\, Gqeberha
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:⚽ Netherlands vs Sweden
 DTSTART:20260620T170000Z
 DTEND:20260620T190000Z
@@ -1160,15 +1151,6 @@ DESCRIPTION:Round of 32
 LOCATION:Kansas City Stadium\, Kansas City
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs England\nNations Championship
-DTSTART:20260704T154000Z
-DTEND:20260704T184000Z
-UID:2b31939f6202f2e414aedd18803e8ee1
-DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round 
- 1\nOpponent: England\nVenue: 10bet Ellis Park
-LOCATION:10bet Ellis Park
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:⚽ Canada vs Morocco
 DTSTART:20260704T170000Z
 DTEND:20260704T190000Z
@@ -1275,15 +1257,6 @@ DESCRIPTION:WorldSBK\n\nSession: Race 1\nCircuit: Donington\nCountry: GBR
 LOCATION:Donington
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs Scotland\nNations Championship
-DTSTART:20260711T154000Z
-DTEND:20260711T184000Z
-UID:697abee41ee17fc42f326cedcf990b14
-DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round 
- 2\nOpponent: Scotland\nVenue: Loftus Versfeld\, Pretoria
-LOCATION:Loftus Versfeld\, Pretoria
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:⚽ Norway vs England
 DTSTART:20260711T210000Z
 DTEND:20260711T230000Z
@@ -1331,15 +1304,6 @@ DTEND:20260715T210000Z
 UID:0fcab5590e258fa56fd794252ad0a0aa
 DESCRIPTION:Semi-final
 LOCATION:Atlanta Stadium\, Atlanta
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs Wales\nNations Championship
-DTSTART:20260718T154000Z
-DTEND:20260718T184000Z
-UID:cb6da2585c6af9b04324cead191dd66c
-DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round 
- 3\nOpponent: Wales\nVenue: Kings Park\, Durban
-LOCATION:Kings Park\, Durban
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ France vs England
@@ -1431,15 +1395,6 @@ DESCRIPTION:Snooker Tournament\n\nTournament: China Open\nType: Ranking\nV
 LOCATION:Taiyuan\, China
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏉 Argentina vs Springboks\nInternationals
-DTSTART:20260808T190000Z
-DTEND:20260808T220000Z
-UID:6267a8a09a7db3c6d83335678b1ae79b
-DESCRIPTION:Springboks\n\nCompetition: Internationals\nRound: Round 1\nOpp
- onent: Argentina\nVenue: Estadio Jose Amalfitani\, Buenos Aires
-LOCATION:Estadio Jose Amalfitani\, Buenos Aires
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎱 Judd Trump vs Noppon Saengkham
 DTSTART:20260809T060000Z
 DTEND:20260809T090000Z
@@ -1485,16 +1440,6 @@ DESCRIPTION:MotoAmerica Race Weekend\n\nOfficial Event Page:\nhttps://moto
 LOCATION:Virginia Int'l Raceway\, VA
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs New Zealand\nCastle Double Malt Rugby's Greates
- t Rivalry
-DTSTART:20260822T151000Z
-DTEND:20260822T181000Z
-UID:9608f97005b79711c48d473d796fd7ed
-DESCRIPTION:Springboks\n\nCompetition: Castle Double Malt Rugby's Greatest
-  Rivalry\nRound: 1st Test\nOpponent: New Zealand\nVenue: 10bet Ellis Park
-LOCATION:10bet Ellis Park
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎱 Snooker - Wuhan Open
 DTSTART;VALUE=DATE:20260823
 DTEND;VALUE=DATE:20260830
@@ -1502,17 +1447,6 @@ UID:4f51d8a4183ca96d4c705a54c8cf6390
 DESCRIPTION:Snooker Tournament\n\nTournament: Wuhan Open\nType: Ranking\nV
  enue: Wuhan\, China\nTour: main\n\nData Source:\nSnooker.org
 LOCATION:Wuhan\, China
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs New Zealand\nCastle Double Malt Rugby's Greates
- t Rivalry
-DTSTART:20260829T151000Z
-DTEND:20260829T181000Z
-UID:13d3795f50d36d17ad4f4f989a5cfadc
-DESCRIPTION:Springboks\n\nCompetition: Castle Double Malt Rugby's Greatest
-  Rivalry\nRound: 2nd Test\nOpponent: New Zealand\nVenue: DHL Stadium\, Cap
- e Town
-LOCATION:DHL Stadium\, Cape Town
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎱 Snooker - British Open
@@ -1550,17 +1484,6 @@ UID:a1282d9ffc726f978a0ad53e6c2cc769
 DESCRIPTION:WorldSBK\n\nSession: Race 1\nCircuit: Magny-Cours\nCountry: FR
  A
 LOCATION:Magny-Cours
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs New Zealand\nCastle Double Malt Rugby's Greates
- t Rivalry
-DTSTART:20260905T151000Z
-DTEND:20260905T181000Z
-UID:5e4cbfdb62d2cec3f0e85442f80d9ee9
-DESCRIPTION:Springboks\n\nCompetition: Castle Double Malt Rugby's Greatest
-  Rivalry\nRound: 3rd Test\nOpponent: New Zealand\nVenue: FNB Stadium\, Joh
- annesburg
-LOCATION:FNB Stadium\, Johannesburg
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🏍️ WSBK - Magny-Cours - Superpole Race
@@ -1647,17 +1570,6 @@ DESCRIPTION:MotoAmerica Race Weekend\n\nOfficial Event Page:\nhttps://moto
 LOCATION:Circuit of The Americas\, TX
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏉 Springboks vs New Zealand\nCastle Double Malt Rugby's Greates
- t Rivalry
-DTSTART:20260912T210000Z
-DTEND:20260913T000000Z
-UID:0a9b823a8ed7779917d155a54f1b5c1b
-DESCRIPTION:Springboks\n\nCompetition: Castle Double Malt Rugby's Greatest
-  Rivalry\nRound: 4th Test\nOpponent: New Zealand\nVenue: M&T Bank Stadium\
- , Baltimore
-LOCATION:M&T Bank Stadium\, Baltimore
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n1st ODI
 DTSTART:20260924T100000
 DTEND:20260924T180000
@@ -1700,15 +1612,6 @@ UID:6b944adaaf052024b8c77b5f0073686e
 DESCRIPTION:WorldSBK\n\nSession: Superpole Race\nCircuit: Cremona\nCountry
  : ITA
 LOCATION:Cremona
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Australia vs Springboks\nInternationals
-DTSTART:20260927T093000Z
-DTEND:20260927T123000Z
-UID:69d9800f30703d9d89fe6520eaf8ddeb
-DESCRIPTION:Springboks\n\nCompetition: Internationals\nRound: Round 1\nOpp
- onent: Australia\nVenue: Optus Stadium\, Perth
-LOCATION:Optus Stadium\, Perth
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n2nd ODI
@@ -1852,15 +1755,6 @@ DESCRIPTION:Snooker Tournament\n\nTournament: International Championship\n
 LOCATION:Nanjing\, China
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏉 Italy vs Springboks\nNations Championship
-DTSTART:20261107T114000Z
-DTEND:20261107T144000Z
-UID:29c2f4724c098f72e03516e1598d0142
-DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round 
- 4\nOpponent: Italy\nVenue: Allianz Stadium\, Turin
-LOCATION:Allianz Stadium\, Turin
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎱 Snooker - Champion of Champions
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261116
@@ -1869,24 +1763,6 @@ DESCRIPTION:Snooker Tournament\n\nTournament: Champion of Champions\nType:
   Invitational\nVenue: Mattioli Arena\, Leicester\, England\nTour: main\n\n
  Data Source:\nSnooker.org
 LOCATION:Mattioli Arena\, Leicester\, England
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 France vs Springboks\nNations Championship
-DTSTART:20261113T201000Z
-DTEND:20261113T231000Z
-UID:a415e93c2909ffdabe9dbaf614c4926d
-DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round 
- 5\nOpponent: France\nVenue: Stade de France\, Saint-Denis
-LOCATION:Stade de France\, Saint-Denis
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏉 Ireland vs Springboks\nNations Championship
-DTSTART:20261121T164000Z
-DTEND:20261121T194000Z
-UID:86b5cd9a0d674a670d6bf5b2425c1910
-DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round 
- 6\nOpponent: Ireland\nVenue: Aviva Stadium\, Dublin
-LOCATION:Aviva Stadium\, Dublin
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎱 Snooker - UK Championship
