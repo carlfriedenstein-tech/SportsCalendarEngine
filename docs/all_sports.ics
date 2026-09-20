@@ -1693,9 +1693,9 @@ LOCATION:Cremona
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🏉 Australia vs Springboks\nInternationals
-DTSTART:20260927T093000Z
-DTEND:20260927T123000Z
-UID:69d9800f30703d9d89fe6520eaf8ddeb
+DTSTART:20260927T094500Z
+DTEND:20260927T124500Z
+UID:237fc7c35e479329f986feae1c5ee560
 DESCRIPTION:Springboks\n\nCompetition: Internationals\nRound: Round 1\nOpp
  onent: Australia\nVenue: Optus Stadium\, Perth
 LOCATION:Optus Stadium\, Perth
