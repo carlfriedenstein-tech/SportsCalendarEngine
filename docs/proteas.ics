@@ -2,16 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Sports Calendar Engine//
 BEGIN:VEVENT
-SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n1st ODI
-DTSTART:20260924T100000
-DTEND:20260924T180000
-UID:f9b4bd67f0f68e984682848c5fb01bf5
-DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa - 1st ODI\nV
- enue: Hollywoodbets Kingsmead Stadium\, Durban\nDate: 24/09/26\nTime: 10:0
- 0
-LOCATION:Hollywoodbets Kingsmead Stadium\, Durban
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n2nd ODI
 DTSTART:20260927T100000
 DTEND:20260927T180000
