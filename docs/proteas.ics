@@ -2,16 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Sports Calendar Engine//
 BEGIN:VEVENT
-SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n2nd ODI
-DTSTART:20260927T100000
-DTEND:20260927T180000
-UID:0f1fe380f3800af285009d1b0f69cfc1
-DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa - 2nd ODI\nV
- enue: DP World Wanderers Stadium\, Johannesburg\nDate: 27/09/26\nTime: 10:
- 00
-LOCATION:DP World Wanderers Stadium\, Johannesburg
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n3rd ODI
 DTSTART:20260930T133000
 DTEND:20260930T213000
@@ -38,5 +28,15 @@ UID:fd4f76a6809d6fc09d9722a975098225
 DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa – 2nd Test
  \nVenue: Dafabet St George's Park\, Gqeberha\nDate: 18/10/26\nTime: 10:00
 LOCATION:Dafabet St George's Park\, Gqeberha
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n3rd Test
+DTSTART:20261027T103000
+DTEND:20261101T103000
+UID:549d1acbbfa772474b0a52a5db8c9f4e
+DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa – 3rd Test
+ \nVenue: YesPlay Newlands Cricket Ground\, Cape Town\nDate: 27/10/26\nTime
+ : 10:30
+LOCATION:YesPlay Newlands Cricket Ground\, Cape Town
 END:VEVENT
 END:VCALENDAR

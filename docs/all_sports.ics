@@ -1701,16 +1701,6 @@ DESCRIPTION:Springboks\n\nCompetition: Internationals\nRound: Round 1\nOpp
 LOCATION:Optus Stadium\, Perth
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n2nd ODI
-DTSTART:20260927T100000
-DTEND:20260927T180000
-UID:0f1fe380f3800af285009d1b0f69cfc1
-DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa - 2nd ODI\nV
- enue: DP World Wanderers Stadium\, Johannesburg\nDate: 27/09/26\nTime: 10:
- 00
-LOCATION:DP World Wanderers Stadium\, Johannesburg
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🏍️ WSBK - Cremona - Race 2
 DTSTART:20260927T133000Z
 DTEND:20260927T143000Z
@@ -1830,6 +1820,16 @@ DTEND:20261018T143000Z
 UID:62fa1906ab1d6c8ff741ebb034761fdd
 DESCRIPTION:WorldSBK\n\nSession: Race 2\nCircuit: Jerez\nCountry: ESP
 LOCATION:Jerez
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n3rd Test
+DTSTART:20261027T103000
+DTEND:20261101T103000
+UID:549d1acbbfa772474b0a52a5db8c9f4e
+DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa – 3rd Test
+ \nVenue: YesPlay Newlands Cricket Ground\, Cape Town\nDate: 27/10/26\nTime
+ : 10:30
+LOCATION:YesPlay Newlands Cricket Ground\, Cape Town
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎱 Snooker - International Championship
