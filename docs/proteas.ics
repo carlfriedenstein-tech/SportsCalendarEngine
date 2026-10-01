@@ -2,15 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Sports Calendar Engine//
 BEGIN:VEVENT
-SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n3rd ODI
-DTSTART:20260930T133000
-DTEND:20260930T213000
-UID:9182b1dd8e13e4ad0c2bcc557fb76237
-DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa - 3rd ODI\nV
- enue: JB Marks Oval\, Potchefstroom\nDate: 30/09/26\nTime: 13:30
-LOCATION:JB Marks Oval\, Potchefstroom
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n1st Test
 DTSTART:20261009T093000
 DTEND:20261014T093000
