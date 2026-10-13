@@ -1718,16 +1718,6 @@ DESCRIPTION:Snooker Tournament\n\nTournament: Shenzhen Open\nType: Ranking
 LOCATION:Shenzhen\, China
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n1st Test
-DTSTART:20261009T093000
-DTEND:20261014T093000
-UID:d2195f9d6b78ede90e4b8ab65dfdcfbe
-DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa – 1st Test
- \nVenue: Hollywoodbets Kingsmead Stadium\, Durban\nDate: 09/10/26\nTime: 0
- 9:30
-LOCATION:Hollywoodbets Kingsmead Stadium\, Durban
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🏍️ WSBK - Estoril - Superpole
 DTSTART:20261010T101500Z
 DTEND:20261010T111500Z
@@ -1759,6 +1749,16 @@ DTEND:20261011T153000Z
 UID:8f2398a372f0c9b5f9095e3a21b363e4
 DESCRIPTION:WorldSBK\n\nSession: Race 2\nCircuit: Estoril\nCountry: POR
 LOCATION:Estoril
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n1st Test
+DTSTART:20261012T093000
+DTEND:20261017T093000
+UID:b18a3fba2d4ae684c67a1c4b63e2c626
+DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa – 1st Test
+ \nVenue: Hollywoodbets Kingsmead Stadium\, Durban\nDate: 12/10/26\nTime: 0
+ 9:30
+LOCATION:Hollywoodbets Kingsmead Stadium\, Durban
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🏍️ WSBK - Jerez - Superpole
