@@ -2,16 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Sports Calendar Engine//
 BEGIN:VEVENT
-SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n1st Test
-DTSTART:20261012T093000
-DTEND:20261017T093000
-UID:b18a3fba2d4ae684c67a1c4b63e2c626
-DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa – 1st Test
- \nVenue: Hollywoodbets Kingsmead Stadium\, Durban\nDate: 12/10/26\nTime: 0
- 9:30
-LOCATION:Hollywoodbets Kingsmead Stadium\, Durban
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n2nd Test
 DTSTART:20261018T100000
 DTEND:20261023T100000
@@ -29,5 +19,14 @@ DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa – 3rd Test
  \nVenue: YesPlay Newlands Cricket Ground\, Cape Town\nDate: 27/10/26\nTime
  : 10:30
 LOCATION:YesPlay Newlands Cricket Ground\, Cape Town
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏏 Proteas\nSouth Africa vs Bangladesh\n1st Test
+DTSTART:20261115T100000
+DTEND:20261120T100000
+UID:d38c2fa0b2e5addde0a9afae2d13bf05
+DESCRIPTION:Proteas\n\nSeries: Bangladesh Men's 1st Test\nVenue: DP World 
+ Wanderers Stadium\, Johannesburg\nDate: 15/11/26\nTime: 10:00
+LOCATION:DP World Wanderers Stadium\, Johannesburg
 END:VEVENT
 END:VCALENDAR

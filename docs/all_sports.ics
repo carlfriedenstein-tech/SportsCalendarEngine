@@ -1751,16 +1751,6 @@ DESCRIPTION:WorldSBK\n\nSession: Race 2\nCircuit: Estoril\nCountry: POR
 LOCATION:Estoril
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n1st Test
-DTSTART:20261012T093000
-DTEND:20261017T093000
-UID:b18a3fba2d4ae684c67a1c4b63e2c626
-DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa – 1st Test
- \nVenue: Hollywoodbets Kingsmead Stadium\, Durban\nDate: 12/10/26\nTime: 0
- 9:30
-LOCATION:Hollywoodbets Kingsmead Stadium\, Durban
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🏍️ WSBK - Jerez - Superpole
 DTSTART:20261017T091500Z
 DTEND:20261017T101500Z
@@ -1859,6 +1849,15 @@ UID:a415e93c2909ffdabe9dbaf614c4926d
 DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round 
  5\nOpponent: France\nVenue: Stade de France\, Saint-Denis
 LOCATION:Stade de France\, Saint-Denis
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏏 Proteas\nSouth Africa vs Bangladesh\n1st Test
+DTSTART:20261115T100000
+DTEND:20261120T100000
+UID:d38c2fa0b2e5addde0a9afae2d13bf05
+DESCRIPTION:Proteas\n\nSeries: Bangladesh Men's 1st Test\nVenue: DP World 
+ Wanderers Stadium\, Johannesburg\nDate: 15/11/26\nTime: 10:00
+LOCATION:DP World Wanderers Stadium\, Johannesburg
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🏉 Ireland vs Springboks\nNations Championship
