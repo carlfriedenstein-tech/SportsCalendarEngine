@@ -3,11 +3,11 @@ VERSION:2.0
 PRODID:-//Sports Calendar Engine//
 BEGIN:VEVENT
 SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n2nd Test
-DTSTART:20261018T100000
-DTEND:20261023T100000
-UID:fd4f76a6809d6fc09d9722a975098225
+DTSTART:20261019T100000
+DTEND:20261024T100000
+UID:2880ce007c5a2233b7253b047cccbf66
 DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa – 2nd Test
- \nVenue: Dafabet St George's Park\, Gqeberha\nDate: 18/10/26\nTime: 10:00
+ \nVenue: Dafabet St George's Park\, Gqeberha\nDate: 19/10/26\nTime: 10:00
 LOCATION:Dafabet St George's Park\, Gqeberha
 END:VEVENT
 BEGIN:VEVENT
