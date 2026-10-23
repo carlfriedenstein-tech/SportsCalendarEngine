@@ -1795,11 +1795,11 @@ LOCATION:Jerez
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n2nd Test
-DTSTART:20261019T100000
-DTEND:20261024T100000
-UID:2880ce007c5a2233b7253b047cccbf66
+DTSTART:20261022T100000
+DTEND:20261027T100000
+UID:4b0bf6f9d0657a174c55870071687de3
 DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa – 2nd Test
- \nVenue: Dafabet St George's Park\, Gqeberha\nDate: 19/10/26\nTime: 10:00
+ \nVenue: Dafabet St George's Park\, Gqeberha\nDate: 22/10/26\nTime: 10:00
 LOCATION:Dafabet St George's Park\, Gqeberha
 END:VEVENT
 BEGIN:VEVENT
@@ -1867,6 +1867,15 @@ UID:86b5cd9a0d674a670d6bf5b2425c1910
 DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round 
  6\nOpponent: Ireland\nVenue: Aviva Stadium\, Dublin
 LOCATION:Aviva Stadium\, Dublin
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏏 Proteas\nSouth Africa vs Bangladesh\n2nd Test
+DTSTART:20261123T100000
+DTEND:20261128T100000
+UID:0a19582cc9ffd5b0dd9fde5c677e071e
+DESCRIPTION:Proteas\n\nSeries: Bangladesh Men's 2nd Test\nVenue: SuperSpor
+ t Park\, Centurion\nDate: 23/11/26\nTime: 10:00
+LOCATION:SuperSport Park\, Centurion
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎱 Snooker - UK Championship
