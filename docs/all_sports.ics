@@ -1795,11 +1795,11 @@ LOCATION:Jerez
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🏏 Proteas\nSouth Africa vs Australia\n3rd Test
-DTSTART:20261029T103000
-DTEND:20261103T103000
-UID:11dc82282975a5e5df9fd199c4cafff7
+DTSTART:20261030T103000
+DTEND:20261104T103000
+UID:d4c3d952e91afd9da1f906116d1ea182
 DESCRIPTION:Proteas\n\nSeries: Australia Tour to South Africa – 3rd Test
- \nVenue: YesPlay Newlands Cricket Ground\, Cape Town\nDate: 29/10/26\nTime
+ \nVenue: YesPlay Newlands Cricket Ground\, Cape Town\nDate: 30/10/26\nTime
  : 10:30
 LOCATION:YesPlay Newlands Cricket Ground\, Cape Town
 END:VEVENT
