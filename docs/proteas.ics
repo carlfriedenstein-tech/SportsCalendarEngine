@@ -3,11 +3,11 @@ VERSION:2.0
 PRODID:-//Sports Calendar Engine//
 BEGIN:VEVENT
 SUMMARY:🏏 Proteas\nSouth Africa vs Bangladesh\n1st Test
-DTSTART:20261115T100000
-DTEND:20261120T100000
-UID:d38c2fa0b2e5addde0a9afae2d13bf05
+DTSTART:20261116T100000
+DTEND:20261121T100000
+UID:d0eaef6c668548576ab2bfc9fcf1c6b9
 DESCRIPTION:Proteas\n\nSeries: Bangladesh Men's 1st Test\nVenue: DP World 
- Wanderers Stadium\, Johannesburg\nDate: 15/11/26\nTime: 10:00
+ Wanderers Stadium\, Johannesburg\nDate: 16/11/26\nTime: 10:00
 LOCATION:DP World Wanderers Stadium\, Johannesburg
 END:VEVENT
 BEGIN:VEVENT
@@ -36,5 +36,14 @@ UID:6ed56c37330e52588422156fc9e5aa10
 DESCRIPTION:Proteas\n\nSeries: Bangladesh Men's 2nd ODI\nVenue: Dafabet St
   George's Park\, Gqeberha\nDate: 04/12/26\nTime: 13:30
 LOCATION:Dafabet St George's Park\, Gqeberha
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏏 Proteas\nSouth Africa vs Bangladesh\n3rd ODI
+DTSTART:20261207T133000
+DTEND:20261207T213000
+UID:54769d1a8e81849134381e4b0a2f1ffd
+DESCRIPTION:Proteas\n\nSeries: Bangladesh Men's 3rd ODI\nVenue: YesPlay Ne
+ wlands Cricket Ground\, Cape Town\nDate: 07/12/26\nTime: 13:30
+LOCATION:YesPlay Newlands Cricket Ground\, Cape Town
 END:VEVENT
 END:VCALENDAR
