@@ -1833,11 +1833,11 @@ LOCATION:Stade de France\, Saint-Denis
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🏏 Proteas\nSouth Africa vs Bangladesh\n1st Test
-DTSTART:20261116T100000
-DTEND:20261121T100000
-UID:d0eaef6c668548576ab2bfc9fcf1c6b9
+DTSTART:20261118T100000
+DTEND:20261123T100000
+UID:57c9f27fee3896a6132a85250ae88389
 DESCRIPTION:Proteas\n\nSeries: Bangladesh Men's 1st Test\nVenue: DP World 
- Wanderers Stadium\, Johannesburg\nDate: 16/11/26\nTime: 10:00
+ Wanderers Stadium\, Johannesburg\nDate: 18/11/26\nTime: 10:00
 LOCATION:DP World Wanderers Stadium\, Johannesburg
 END:VEVENT
 BEGIN:VEVENT
@@ -1904,6 +1904,24 @@ DESCRIPTION:Snooker Tournament\n\nTournament: Shoot Out\nType: Ranking\nVe
  nue: Tower Circus\, Blackpool\, England\nTour: main\n\nData Source:\nSnook
  er.org
 LOCATION:Tower Circus\, Blackpool\, England
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏏 Proteas\nSouth Africa vs Bangladesh\n1st T20I
+DTSTART:20261210T180000
+DTEND:20261210T220000
+UID:97482cb5a0ba5da51bdd2172538da0f3
+DESCRIPTION:Proteas\n\nSeries: Bangladesh Men's 1st T20I\nVenue: Kimberley
+  Oval\, Kimberley\nDate: 10/12/26\nTime: 18:00
+LOCATION:Kimberley Oval\, Kimberley
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏏 Proteas\nSouth Africa vs Bangladesh\n2nd T20I
+DTSTART:20261212T180000
+DTEND:20261212T220000
+UID:0acb677cb50b9cbccf19c04b588f84b9
+DESCRIPTION:Proteas\n\nSeries: Bangladesh Men's 2nd T20I\nVenue: Willowmoo
+ re Park\, Benoni\nDate: 12/12/26\nTime: 18:00
+LOCATION:Willowmoore Park\, Benoni
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎱 Snooker - Scottish Open
