@@ -125,4 +125,13 @@ DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round
  6\nOpponent: Ireland\nVenue: Aviva Stadium\, Dublin
 LOCATION:Aviva Stadium\, Dublin
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏉 France vs Springboks\nNations Championship
+DTSTART:20261129T164000Z
+DTEND:20261129T194000Z
+UID:30dbe2c0766b60e14c27a62f70ff43dc
+DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Final\
+ nOpponent: France\nVenue: Allianz Stadium\, London
+LOCATION:Allianz Stadium\, London
+END:VEVENT
 END:VCALENDAR
