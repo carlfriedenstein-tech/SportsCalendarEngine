@@ -1832,15 +1832,6 @@ DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round
 LOCATION:Stade de France\, Saint-Denis
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏏 Proteas\nSouth Africa vs Bangladesh\n1st Test
-DTSTART:20261119T100000
-DTEND:20261124T100000
-UID:830bc543025e495a89b1ee32cc6697d5
-DESCRIPTION:Proteas\n\nSeries: Bangladesh Men's 1st Test\nVenue: DP World 
- Wanderers Stadium\, Johannesburg\nDate: 19/11/26\nTime: 10:00
-LOCATION:DP World Wanderers Stadium\, Johannesburg
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🏉 Ireland vs Springboks\nNations Championship
 DTSTART:20261121T164000Z
 DTEND:20261121T194000Z
@@ -1851,11 +1842,11 @@ LOCATION:Aviva Stadium\, Dublin
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🏏 Proteas\nSouth Africa vs Bangladesh\n2nd Test
-DTSTART:20261123T100000
-DTEND:20261128T100000
-UID:0a19582cc9ffd5b0dd9fde5c677e071e
+DTSTART:20261124T100000
+DTEND:20261129T100000
+UID:49164002a27ad6a2b3aca777896a8965
 DESCRIPTION:Proteas\n\nSeries: Bangladesh Men's 2nd Test\nVenue: SuperSpor
- t Park\, Centurion\nDate: 23/11/26\nTime: 10:00
+ t Park\, Centurion\nDate: 24/11/26\nTime: 10:00
 LOCATION:SuperSport Park\, Centurion
 END:VEVENT
 BEGIN:VEVENT
@@ -1950,6 +1941,15 @@ DESCRIPTION:Snooker Tournament\n\nTournament: Scottish Open\nType: Ranking
  \nVenue: Meadowbank Sports Centre\, Edinburgh\, Scotland\nTour: main\n\nDa
  ta Source:\nSnooker.org
 LOCATION:Meadowbank Sports Centre\, Edinburgh\, Scotland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏏 Proteas\nSouth Africa vs England\n1st Test
+DTSTART:20261217T100000
+DTEND:20261222T100000
+UID:a66a0e9db63f98e1372da6631f3037cf
+DESCRIPTION:Proteas\n\nSeries: South Africa England Tour - 1st Test\nVenue
+ : DP World Wanderers Stadium\, Johannesburg\nDate: 17/12/26\nTime: 10:00
+LOCATION:DP World Wanderers Stadium\, Johannesburg
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎱 Snooker - Masters
