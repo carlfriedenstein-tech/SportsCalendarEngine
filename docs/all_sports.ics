@@ -1841,15 +1841,6 @@ DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Round
 LOCATION:Aviva Stadium\, Dublin
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏏 Proteas\nSouth Africa vs Bangladesh\n2nd Test
-DTSTART:20261125T100000
-DTEND:20261130T100000
-UID:927ddeaf7b1010dd871a38336fbe3140
-DESCRIPTION:Proteas\n\nSeries: Bangladesh Men's 2nd Test\nVenue: SuperSpor
- t Park\, Centurion\nDate: 25/11/26\nTime: 10:00
-LOCATION:SuperSport Park\, Centurion
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎱 Snooker - UK Championship
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261207
@@ -1869,33 +1860,6 @@ DESCRIPTION:Springboks\n\nCompetition: Nations Championship\nRound: Final\
 LOCATION:Allianz Stadium\, London
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏏 Proteas\nSouth Africa vs Bangladesh\n1st ODI
-DTSTART:20261201T133000
-DTEND:20261201T213000
-UID:47f706288aac57d9b8a6c1726de471c2
-DESCRIPTION:Proteas\n\nSeries: Bangladesh Men's 1st ODI\nVenue: Buffalo Pa
- rk Cricket Stadium\, East London\nDate: 01/12/26\nTime: 13:30
-LOCATION:Buffalo Park Cricket Stadium\, East London
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏏 Proteas\nSouth Africa vs Bangladesh\n2nd ODI
-DTSTART:20261204T133000
-DTEND:20261204T213000
-UID:6ed56c37330e52588422156fc9e5aa10
-DESCRIPTION:Proteas\n\nSeries: Bangladesh Men's 2nd ODI\nVenue: Dafabet St
-  George's Park\, Gqeberha\nDate: 04/12/26\nTime: 13:30
-LOCATION:Dafabet St George's Park\, Gqeberha
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏏 Proteas\nSouth Africa vs Bangladesh\n3rd ODI
-DTSTART:20261207T133000
-DTEND:20261207T213000
-UID:54769d1a8e81849134381e4b0a2f1ffd
-DESCRIPTION:Proteas\n\nSeries: Bangladesh Men's 3rd ODI\nVenue: YesPlay Ne
- wlands Cricket Ground\, Cape Town\nDate: 07/12/26\nTime: 13:30
-LOCATION:YesPlay Newlands Cricket Ground\, Cape Town
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎱 Snooker - Shoot Out
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261213
@@ -1906,33 +1870,6 @@ DESCRIPTION:Snooker Tournament\n\nTournament: Shoot Out\nType: Ranking\nVe
 LOCATION:Tower Circus\, Blackpool\, England
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:🏏 Proteas\nSouth Africa vs Bangladesh\n1st T20I
-DTSTART:20261210T180000
-DTEND:20261210T220000
-UID:97482cb5a0ba5da51bdd2172538da0f3
-DESCRIPTION:Proteas\n\nSeries: Bangladesh Men's 1st T20I\nVenue: Kimberley
-  Oval\, Kimberley\nDate: 10/12/26\nTime: 18:00
-LOCATION:Kimberley Oval\, Kimberley
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏏 Proteas\nSouth Africa vs Bangladesh\n2nd T20I
-DTSTART:20261212T180000
-DTEND:20261212T220000
-UID:0acb677cb50b9cbccf19c04b588f84b9
-DESCRIPTION:Proteas\n\nSeries: Bangladesh Men's 2nd T20I\nVenue: Willowmoo
- re Park\, Benoni\nDate: 12/12/26\nTime: 18:00
-LOCATION:Willowmoore Park\, Benoni
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏏 Proteas\nSouth Africa vs Bangladesh\n3rd T20I
-DTSTART:20261213T180000
-DTEND:20261213T220000
-UID:d7464ca07454bd676723c9dc0456c42b
-DESCRIPTION:Proteas\n\nSeries: Bangladesh Men's 3rd T20I\nVenue: SuperSpor
- t Park\, Centurion\nDate: 13/12/26\nTime: 18:00
-LOCATION:SuperSport Park\, Centurion
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:🎱 Snooker - Scottish Open
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261221
@@ -1941,15 +1878,6 @@ DESCRIPTION:Snooker Tournament\n\nTournament: Scottish Open\nType: Ranking
  \nVenue: Meadowbank Sports Centre\, Edinburgh\, Scotland\nTour: main\n\nDa
  ta Source:\nSnooker.org
 LOCATION:Meadowbank Sports Centre\, Edinburgh\, Scotland
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏏 Proteas\nSouth Africa vs England\n1st Test
-DTSTART:20261217T100000
-DTEND:20261222T100000
-UID:a66a0e9db63f98e1372da6631f3037cf
-DESCRIPTION:Proteas\n\nSeries: South Africa England Tour - 1st Test\nVenue
- : DP World Wanderers Stadium\, Johannesburg\nDate: 17/12/26\nTime: 10:00
-LOCATION:DP World Wanderers Stadium\, Johannesburg
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🎱 Snooker - Masters
